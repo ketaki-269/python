@@ -1,0 +1,20 @@
+starts from 20 /08
+19:18 22-08-2025
+python ek interpreted language hai
+it is platform indepented
+complier vs interpreter
+new.py-> compiler-> byte code-> pvm->interpreter-> 
+           
+
+tokens -
+
+K- Keywords
+I- identifier
+L- literals(unchangeable and immutable)
+O-operators
+P- punctuations
+
+variable
+always start with alphabet and _
+variable stores the memory address of the datatype
+
