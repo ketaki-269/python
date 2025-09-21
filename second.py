@@ -1,15 +1,15 @@
 # Arithmetic operators 
 
-#a=10
-# b=30
+a=10
+b=30
 
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a//b)
-#print(a%b)
-#print(2**3)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(2**3)
 
 # area of square
 side = int(input("enter side"))
