@@ -8,7 +8,7 @@
 # print(rev)    
 
 
-num=int (input("Enter number: "));
+num=int (input("Enter number: "))
 rev=0; 
 ans=1
 while (num>0):
