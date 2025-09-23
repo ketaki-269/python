@@ -19,3 +19,5 @@ while (num>0):
         print("Palindrom")
     else:
         print("NOT")
+
+
