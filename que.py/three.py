@@ -84,6 +84,6 @@ if count==2:
 else:
     print("not prime number")
 
-# move xero in the end of the list?
+# move zero in the end of the list?
 # ex-{3,0,5,6,0,7}
 # out-{3,5,6,7,0,0}
