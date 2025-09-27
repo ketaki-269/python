@@ -57,13 +57,33 @@
 #         print(num, end=" ")
 
 
+# n = int(input("enter a number :"))
+# count = 0
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if j%i==0 and j%n==0:
+#             count+=1
+# if count==2:
+#     print("prime number")
+# else:
+#     print("not prime number")
+
+
+
+
+
+    # by sir 
+
 n = int(input("enter a number :"))
 count = 0
 for i in range(1,n+1):
-    for j in range(1,n+1):
-        if j%i==0 and j%n==0:
+        if n%i==0:
             count+=1
 if count==2:
     print("prime number")
 else:
     print("not prime number")
+
+# move xero in the end of the list?
+# ex-{3,0,5,6,0,7}
+# out-{3,5,6,7,0,0}
