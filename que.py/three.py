@@ -43,15 +43,27 @@
 #         break
         
 # print prinme number ?        
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-print("Prime numbers up to", n, "are:")
+# print("Prime numbers up to", n, "are:")
 
-for num in range(2, n + 1):
-    is_prime = True
-    for i in range(2, int(num**0.5) + 1):
-        if num % i == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print(num, end=" ")
+# for num in range(2, n + 1):
+#     is_prime = True
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             is_prime = False
+#             break
+#     if is_prime:
+#         print(num, end=" ")
+
+
+n = int(input("enter a number :"))
+count = 0
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if j%i==0 and j%n==0:
+            count+=1
+if count==2:
+    print("prime number")
+else:
+    print("not prime number")
