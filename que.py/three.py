@@ -74,16 +74,41 @@
 
     # by sir 
 
-n = int(input("enter a number :"))
-count = 0
-for i in range(1,n+1):
-        if n%i==0:
-            count+=1
-if count==2:
-    print("prime number")
-else:
-    print("not prime number")
+# n = int(input("enter a number :"))
+# count = 0
+# for i in range(1,n+1):
+#         if n%i==0:
+#             count+=1
+# if count==2:
+#     print("prime number")
+# else:
+#     print("not prime number")
+
+# 27-9-25
 
 # move zero in the end of the list?
 # ex-{3,0,5,6,0,7}
 # out-{3,5,6,7,0,0}
+
+# list =[3,0,5,6,0,7]
+# count = 0
+# list= []
+# for i in list:
+#     if i!=0:
+#         list.append(i)
+#     else:
+#         count+=1
+# for i in range (count):
+#     list.append(0)
+# print (list)
+
+
+nonzero=[]
+zero=[]
+list =[3,0,5,6,0,7]
+for i in range (len(list)):
+    if list [i] !=0:
+        nonzero.append(list[i])
+    else:
+        zero.append(list[i])
+print(nonzero+zero)       
