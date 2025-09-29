@@ -115,3 +115,24 @@
 
 
 
+# num = [3, 0, 5, 6, 0, 7]
+
+# # Move zeros into new list 
+# result = [i for i in num if i != 0 ]+ [0] * num.count(0)
+
+# print(result)  
+
+
+nums = [3, 0, 5, 6, 0, 7]
+
+pos = 0
+for num in nums:
+    if num != 0:
+        nums[pos] = num
+        pos += 1
+
+while pos < len(nums):
+    nums[pos] = 0
+    pos += 1
+
+print(nums) 
