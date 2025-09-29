@@ -1,18 +1,18 @@
-# print table of 2 
+#1  print table of 2 
 # num=int(input("Enter a number : "))
 # i=int
 # ans=num*i
 # for i in range (1,11):
 #     print (ans)
 
-# print table of 1-10
+#2  print table of 1-10
 
 # for i in range (1,11):
 #     for j in range(1,11):
 #         print(i*j,end=" ")
 #     print()    
 
-# target sum ?
+#3  target sum ?
 # ex={1,2,6,7}    target =7
 # ouput=1,6
 
@@ -28,7 +28,7 @@
    
 
 
-# ex{3,6,1,5,4} target = 10
+#4  ex{3,6,1,5,4} target = 10
 # output =6,4 
 
 # list=[3,6,1,5,4]
@@ -42,7 +42,7 @@
 #     if ans==True:
 #         break
         
-# print prinme number ?        
+#5  print prime number ?        
 # n = int(input("Enter a number: "))
 
 # print("Prime numbers up to", n, "are:")
@@ -86,7 +86,7 @@
 
 # 27-9-25
 
-# move zero in the end of the list?
+#6 move zero in the end of the list?
 # ex-{3,0,5,6,0,7}
 # out-{3,5,6,7,0,0}
 
@@ -138,7 +138,7 @@
 # print(nums) 
 
 
-# check number is armstrong number or not or for three digit  ?
+#7  check number is armstrong number or not or for three digit  ?
 # ex -153 
 
 
@@ -155,7 +155,7 @@
 # else:
 #     print(num, "is Not an Armstrong number.")
 
-# check number is armstrong number or not by number count ?
+#8 check number is armstrong number or not by number count ?
 # ex- 1634 or any number 
 
 num = int(input("Enter a number: "))
