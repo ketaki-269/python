@@ -215,7 +215,6 @@
 # 1+1 =  2
 
 num = int(input("Enter a number: "))
-
 while num >= 10:   # Outer loop → keep running until single digit
     temp = num
     sum_digits = 0
@@ -223,7 +222,6 @@ while num >= 10:   # Outer loop → keep running until single digit
     while temp > 0:   # Inner loop → sum of digits
         sum_digits += temp % 10
         temp //= 10
-
     num = sum_digits   # Replace number with sum
 
 print("Single digit:", num)
