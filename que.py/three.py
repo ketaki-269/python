@@ -223,5 +223,4 @@ while num >= 10:   # Outer loop → keep running until single digit
         sum_digits += temp % 10
         temp //= 10
     num = sum_digits   # Replace number with sum
-
 print("Single digit:", num)
