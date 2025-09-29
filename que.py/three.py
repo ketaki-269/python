@@ -1,3 +1,18 @@
+#8 check number is palindrome  number or not by number count ?
+# num = int(input("Enter a number: "))
+# real=num
+# reversed =0
+# while (num != 0):
+#         remainder = num % 10
+#         reversed = reversed * 10 + remainder
+#         num /= 10
+    
+
+# if real == reversed:
+#     print ("Palimdrome")
+# else:
+#     print("Not a Palindrome")     
+
 #1  print table of 2 
 # num=int(input("Enter a number : "))
 # i=int
@@ -158,18 +173,43 @@
 #8 check number is armstrong number or not by number count ?
 # ex- 1634 or any number 
 
-num = int(input("Enter a number: "))
-real = num
-result = 0
+# num = int(input("Enter a number: "))
+# real = num
+# result = 0
 
-count = len(str(num))
+# count = len(str(num))
 
-while real != 0:
-    remainder = real % 10
-    result += remainder ** count   
-    real //= 10  
+# while real != 0:
+#     remainder = real % 10
+#     result += remainder ** count   
+#     real //= 10  
 
-if result == num:
-    print(num, "is an Armstrong number.")
-else:
-    print(num, "is Not an Armstrong number.")
+# if result == num:
+#     print(num, "is an Armstrong number.")
+# else:
+#     print(num, "is Not an Armstrong number.")
+
+
+# 9. remove duplicate data from the list 
+# ex- [1,1,2,2,3,4,5,3]
+# o/p - [1,2,3,4,5]
+   
+# list =[1,1,2,2,3,4,5,3]
+# result = []
+# for i in list:
+#     if i not in result:
+#         result.append(i)
+# print(result)   
+
+
+
+
+li =[1,1,2,2,3,4,5,3]
+li= set [li]
+li=list(li)
+print(li)
+
+# q- add digit  till it become single digit here we will use two loops 
+# ex - 155
+# 1+5+5 = 11
+# 1+1 =  2
