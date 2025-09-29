@@ -204,12 +204,26 @@
 
 
 
-li =[1,1,2,2,3,4,5,3]
-li= set [li]
-li=list(li)
-print(li)
+# li =[1,1,2,2,3,4,5,3]
+# li= set [li]
+# li=list(li)
+# print(li)
 
 # q- add digit  till it become single digit here we will use two loops 
 # ex - 155
 # 1+5+5 = 11
 # 1+1 =  2
+
+num = int(input("Enter a number: "))
+
+while num >= 10:   # Outer loop → keep running until single digit
+    temp = num
+    sum_digits = 0
+
+    while temp > 0:   # Inner loop → sum of digits
+        sum_digits += temp % 10
+        temp //= 10
+
+    num = sum_digits   # Replace number with sum
+
+print("Single digit:", num)
