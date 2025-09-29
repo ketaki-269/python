@@ -103,12 +103,15 @@
 # print (list)
 
 
-nonzero=[]
-zero=[]
-list =[3,0,5,6,0,7]
-for i in range (len(list)):
-    if list [i] !=0:
-        nonzero.append(list[i])
-    else:
-        zero.append(list[i])
-print(nonzero+zero)       
+# nonzero=[]
+# zero=[]
+# list =[3,0,5,6,0,7]
+# for i in range (len(list)):
+#     if list [i] !=0:
+#         nonzero.append(list[i])
+#     else:
+#         zero.append(list[i])
+# print(nonzero+zero)       
+
+
+
