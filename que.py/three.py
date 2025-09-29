@@ -138,6 +138,38 @@
 # print(nums) 
 
 
-# q-1 armstrong number ?
+# check number is armstrong number or not or for three digit  ?
+# ex -153 
 
 
+# num = int(input("Enter a number: "))
+# real = num
+# result = 0
+# while real != 0:
+#     remainder = real % 10
+#     result += remainder ** 3   
+#     real //= 10  
+
+# if result == num:
+#     print(num, "is an Armstrong number.")
+# else:
+#     print(num, "is Not an Armstrong number.")
+
+# check number is armstrong number or not by number count ?
+# ex- 1634 or any number 
+
+num = int(input("Enter a number: "))
+real = num
+result = 0
+
+count = len(str(num))
+
+while real != 0:
+    remainder = real % 10
+    result += remainder ** count   
+    real //= 10  
+
+if result == num:
+    print(num, "is an Armstrong number.")
+else:
+    print(num, "is Not an Armstrong number.")
