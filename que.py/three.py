@@ -270,3 +270,44 @@
 #     print(b, end=" ")
 
 
+# 12. count the frequency of each element in list
+
+# data={1:2,2:6}
+# data[4]=7
+# print(data.get(90,0))               (0 vo value hai jo rreturn honi hai)
+# print(data)
+
+
+# li= [1,4,3,2,4,5,4,4,2,2,2,1]                #( list )
+# data={}                                       #(dictionary create kerdi)
+# for i in li:                                  #(ek ek kerke data ayenga )
+#     data[i] = data.get(i,0)+1                  # key change nhi hongi hamesha value change hongi 
+# print(data)    
+
+
+
+
+# 13. count the frequency of word in string 
+# ex= stri="helloword" output  {h:1,e:1,l:3}
+
+stri="helloword"
+data={}
+for i in stri:
+    data[i]=data.get(i,0)+1
+print(data)    
+
+
+#14 .convert string into set of character 
+# like- store this string stri="helloword" into set 
+
+stri="helloword"
+set=[stri]
+print(set)
+
+#15.find a unique word from a sentence (hello word) using a set 
+
+
+#16 write a program to create a dictionary where keyy are number from 1-10 and values are their square.
+
+#17 give n a dictionary of students and marks ,find the student with the highest marks .
+
