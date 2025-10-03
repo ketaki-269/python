@@ -228,3 +228,18 @@
 
 # 11.  fibbonaci series 
 
+# num = int (input("Enter a number for fibonacci series: "))
+# a=0
+# b=1
+# count = 0
+# while num > count:
+#     print(a , end=" ")
+#     a, b=b ,a+b
+#     count += 1
+
+num =int(input("Enter the number: "))
+a=0
+b=1
+for i in range(num) :
+    print(a, end=" ")
+    a, b =b ,a+b
