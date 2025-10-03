@@ -237,9 +237,34 @@
 #     a, b=b ,a+b
 #     count += 1
 
+# num =int(input("Enter the number: "))
+# a=0
+# b=1
+# for i in range(num) :
+#     print(a, end=" ")
+#     a, b =b ,a+b
+
+# num =int(input("Enter the number: "))
+# a=0
+# b=1
+# for i in range(num) :
+#     if i == 0: 
+#      print(a, end=" ")
+#      continue
+#     if i ==1:
+#        print(b,end=" ")
+#        continue
+#     c =a+b
+#     a =b
+#     b =c
+#     print(b, end=" ")
+
 num =int(input("Enter the number: "))
 a=0
 b=1
-for i in range(num) :
-    print(a, end=" ")
-    a, b =b ,a+b
+print(a,b, end=" ")
+for i in range(num-2) :
+    c= a+b
+    a= b
+    b=c
+    print(b, end=" ")
