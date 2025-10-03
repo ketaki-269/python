@@ -209,18 +209,22 @@
 # li=list(li)
 # print(li)
 
-# q- add digit  till it become single digit here we will use two loops 
+# q- 10 add digit  till it become single digit here we will use two loops 
 # ex - 155
 # 1+5+5 = 11
 # 1+1 =  2
 
-num = int(input("Enter a number: "))
-while num >= 10:  
-    temp = num
-    sum_digits = 0
+# num = int(input("Enter a number: "))
+# while num >= 10:  
+#     temp = num
+#     sum_digits = 0
 
-    while temp > 0:   
-        sum_digits += temp % 10
-        temp //= 10
-    num = sum_digits   
-print("Single digit:", num)
+#     while temp > 0:   
+#         sum_digits += temp % 10
+#         temp //= 10
+#     num = sum_digits   
+# print("Single digit:", num)
+
+
+# 11.  fibbonaci series 
+
