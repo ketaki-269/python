@@ -290,24 +290,64 @@
 # 13. count the frequency of word in string 
 # ex= stri="helloword" output  {h:1,e:1,l:3}
 
-stri="helloword"
-data={}
-for i in stri:
-    data[i]=data.get(i,0)+1
-print(data)    
+# stri="helloword"
+# data={}
+# for i in stri:
+#     data[i]=data.get(i,0)+1
+# print(data)    
 
 
 #14 .convert string into set of character 
 # like- store this string stri="helloword" into set 
+# stri="helloword"
+# data = set()
+# print(stri)
 
-stri="helloword"
-set=[stri]
-print(set)
+# stri="helloword"
+# data = set(stri)
+# print(data)
+
+# # by sir 
+# stri="helloword"
+# ans=set()
+# for i in stri:
+#     ans.add(i)
+# print(ans)    
 
 #15.find a unique word from a sentence (hello word) using a set 
+# stri="helloword"
+# data={}
+# ans=set()
+# for i in stri:
+#     data[i]=data.get(i,0)+1
 
+# for key,value in data.items():
+#     if value==1:
+#         ans.add(key)
+
+# print(ans)
 
 #16 write a program to create a dictionary where keyy are number from 1-10 and values are their square.
 
+# data={}
+# for i in range(1,11):
+#     data[i]=i*i
+# print(data)    
+
 #17 give n a dictionary of students and marks ,find the student with the highest marks .
+
+# student_marks={
+#     "raj":50,
+#     "rahul":80,
+#     "rohit":90,
+#     "radhika":20
+# }
+# maximum = student_marks["raj"]
+# topper=""
+# for student,marks in student_marks.items():
+#     if marks>maximum:
+#         topper=student
+#         maximum=marks
+
+# print(f"the topper name is {topper} with  {maximum} marks")       
 
