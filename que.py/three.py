@@ -351,3 +351,21 @@
 
 # print(f"the topper name is {topper} with  {maximum} marks")       
 
+# string
+s="hellopython"
+#slicing
+#indexing- list string tuple
+# when we use slicing [starting:end-1:steps]
+
+print(s[0:7:1])
+print(s[0:7])
+print(s[7])
+print(s[0::1])
+print(s[4::])
+print(s[::])
+print(s[::-1])
+print(s[2:9:2])
+print(s[4:-6:])
+print(s[1:-2:])
+print(s[3:-1:])
+print(s[-4:2:])
