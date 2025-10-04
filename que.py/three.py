@@ -357,15 +357,91 @@ s="hellopython"
 #indexing- list string tuple
 # when we use slicing [starting:end-1:steps]
 
-print(s[0:7:1])
-print(s[0:7])
-print(s[7])
-print(s[0::1])
-print(s[4::])
-print(s[::])
-print(s[::-1])
-print(s[2:9:2])
-print(s[4:-6:])
-print(s[1:-2:])
-print(s[3:-1:])
-print(s[-4:2:])
+# print(s[0:7:1])
+# print(s[0:7])
+# print(s[7])
+# print(s[0::1])
+# print(s[4::])
+# print(s[::])
+# print(s[::-1]) # reverse
+# print(s[2:9:2])
+# print(s[4:-6:])
+# print(s[1:-2:])
+# print(s[3:-1:])
+# print(s[-4:2:])  #it will not work as  # if there it start from negative the steps should be in negative 
+
+# check the given string  is palindrom or not 
+# ex- string ="rare"  string2 ="erar"
+
+# s="hello"
+# if s ==s[::-1]:
+#     print("palindrom")
+# else:
+#     print("not")    
+
+
+# s=input("Enter : ")
+# if s ==s[::-1]:
+#     print("palindrom")
+# else:
+#     print("not")   
+
+
+# que- yo reversze 
+# num =(input("enter"))   
+# ans =num [::-1]
+# ans=int(ans)
+# print(ans) 
+
+# check the string is anagram ot not 
+# angram means word  count should be same or frequencyy of character should be same 
+# condition of anagram - 
+# 1.  if length should be same 
+# 2. else  same 
+
+# s1="anagram"
+# s2="aaagram"
+# if len(s1) != len(s2):
+#     print("not")
+# else:
+#     data1={}
+#     data2={}
+#     for i in s1:
+#         data1[i]=data1.get(i,0)+1
+#     for  i in s2 :
+#         data2[i]=data2.get(i,0)+1
+#     if data1 == data2:
+#        print("anagram") 
+#     else:
+#         print("not")  
+#         # ni chala code 
+
+
+# s= "hello"
+# print(s.upper())
+# print(len(s))
+# print(s.lower())
+# print(s.replace("h","r"))
+# s=s.split()
+# print(s)
+
+# s1="ketaki,anushka"
+# s1=s1.split(",")
+# print(s)
+                
+# convert upper to lower and lower to upper 
+# s="helloworld"
+# print(s.upper())
+# s1="HELLOWORLD"
+# print(s1.lower())
+
+
+# same string me nhi honga hpnga tph joins use honge 
+s="Helloworld"
+ans=""
+for i in s:
+    if i.islower():
+        ans+=i.upper()
+    else:
+        ans+=i.lower()
+print(ans)                            
