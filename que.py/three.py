@@ -445,3 +445,4 @@ for i in s:
     else:
         ans+=i.lower()
 print(ans)                            
+
