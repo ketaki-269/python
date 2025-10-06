@@ -436,7 +436,7 @@ s="hellopython"
 # print(s1.lower())
 
 
-# same string me nhi honga hpnga tph joins use honge 
+# same string me nhi honga honga  toh joins use honge 
 s="Helloworld"
 ans=""
 for i in s:
