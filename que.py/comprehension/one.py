@@ -128,9 +128,9 @@
 
 # 9. Extract all words longer than 4 letters from "Python list comprehension is powerful".
 # li = ["Python" ,"list" , "comprehension"  , "is" , "powerful"]
-li= "Python list comprehension is powerful"
-result = [i for i in li if len(i) > 4]
-print(result)
+# li= "Python list comprehension is powerful"
+# result = [i for i in li if len(i) > 4]
+# print(result)
 # 10. From a sentence, extract words that start with a vowel.
 # s= "From a sentence, extract words that start with a vowel." 
 # data= [ i for i in s if i in "aeiouAEIOU"]
@@ -138,7 +138,6 @@ print(result)
 
 #---------------------------------------------------------------------------------------------------
 #2 set
-
 # set ={}
 # for i in range (1,11):
 #     set.append(i)
@@ -146,6 +145,18 @@ print(result)
 
 # set= { i for i in range (1,11)}
 # print(set)
+
+# 1. Create a set of squares from 1 to 10. {x**2 for x in range(1,11)}
+# data={i**2 for i in range (1,11,) }
+# print (data)
+# 2. Create a set of even numbers from 1 to 20.
+data={i for i in range (1,21,) if i%2==0}
+print (data)
+# 3. Create a set of characters from "banana".
+# 4. From [1,2,2,3,4,4,5], create a set of unique elements.
+# 5. Create a set of numbers from 1–30 divisible by 3 or 5.
+# 6. Generate a set of cubes for numbers 1–10 but only include cubes < 100.
+# 7. Create a set of squares for only odd numbers between 1 and 15.
 #------------------------------------------------------------------------------------------
 #3 tuple (generator)
 # 1. Create a tuple of squares from 1 to 5.
