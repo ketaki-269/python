@@ -127,14 +127,20 @@
 
 
 # 9. Extract all words longer than 4 letters from "Python list comprehension is powerful".
-li = ["Python" ,"list" , "comprehension"  , "is" , "powerful"]
-# li= "Python list comprehension is powerful"
-result = [i for i in li if len(i) > 4]
-print(result)
+# li = ["Python" ,"list" , "comprehension"  , "is" , "powerful"]
+# # li= "Python list comprehension is powerful"
+# result = [i for i in li if len(i) > 4]
+# print(result)
+
+# sentence = "Python list comprehension is powerful"
+# result = [word for word in sentence.split() if len(word) > 4]
+# print(result)
+
 # 10. From a sentence, extract words that start with a vowel.
-# s= "From a sentence, extract words that start with a vowel." 
-# data= [ i for i in s if i in "aeiouAEIOU"]
-# print(data)
+s = "From a sentence, extract words that start with a vowel."
+result = [i for i in s.split() if i[0] in 'aeiouAEIOU']
+print(result)
+
 
 #---------------------------------------------------------------------------------------------------
 #2 set
