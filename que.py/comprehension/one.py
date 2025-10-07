@@ -148,6 +148,15 @@ print(result)
 # print(set)
 #------------------------------------------------------------------------------------------
 #3 tuple (generator)
+# 1. Create a tuple of squares from 1 to 5.
+# tuple(x**2 for x in range(1,6))
+# 2. Create a tuple of even numbers from 2 to 10.
+# 3. Convert a list ['a', 'b', 'c'] to uppercase letters as a tuple.
+# 4. Create a tuple of cubes of numbers from 1 to 7.
+# 5. Create a tuple of lengths of words in ["hi", "python", "list"].
+# 6. Generate a tuple of numbers divisible by 7 between 1 and 50.
+# 7. Convert the characters of a string "hello" into a tuple.
+# 8. Create a tuple of all vowels present in "education".
 #-------------------------------------------------------------------------------------------
 
 #4dictionary
