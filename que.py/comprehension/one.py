@@ -8,7 +8,7 @@
 # li= [ i for i in range (1,11)]
 # print(li)
 
-# WAP to stor data of table
+# WAP to store data of table
 # data=[i for i in range (2,21,2)]
 # print (data)
 
@@ -85,10 +85,58 @@
 # print(result)
 
 #WAP to add 5 to each number in list    
-li = [1, 2, 3, 4]
-result = [i + 5 for i in li]
-print(result)
+# li = [1, 2, 3, 4]
+# result = [i + 5 for i in li]
+# print(result)
 
+
+# List Comprehension Questions
+
+# 1. Generate a list of even numbers from 1 to 20.
+# data=[i for i in range (1,21,) if i%2==0]
+# print (data)
+# 2. Convert all characters of a string "python" into uppercase.
+# string= "python"
+# output=string.upper()
+# print(output)
+
+# 3. Create a list of cubes of odd numbers from 1 to 15.
+# data=[i*3 for i in range (1,16,) if i%2!=0]
+# print (data)
+# 4. Extract vowels from the string "comprehension".
+# s= "comprehension" 
+# data= [ i for i in s if i in "aeiouAEIOU"]
+# print(data)
+# 5. From a list [10, 25, 30, 45, 60, 75, 90], create a new list containing only numbers greater than 40.
+# li = [10, 25, 30, 45, 60, 75, 90]
+# result = [i for i in li if i>40]
+# print(result)
+
+# 6. Create a list of the first letter of each word in ["apple", "banana", "cherry"].
+# li = ["apple", "banana","cherry"]
+# result= [ i[0] for i in li ]
+# print(result)
+# 7. Flatten a nested list [[1,2],[3,4],[5,6]] into a single list. in comprehension
+# list =  [[1,2],[3,4],[5,6]]
+# li = [[1,2],[3,4],[5,6]]
+# data = [i for list in li  for i in list]
+# print(data)
+
+
+# 8. Create a list of (x, y) pairs where both are between 1 and 3 (Cartesian product).
+
+
+# 9. Extract all words longer than 4 letters from "Python list comprehension is powerful".
+# li = ["Python" ,"list" , "comprehension"  , "is" , "powerful"]
+li= "Python list comprehension is powerful"
+result = [i for i in li if len(i) > 4]
+print(result)
+# 10. From a sentence, extract words that start with a vowel.
+# s= "From a sentence, extract words that start with a vowel." 
+# data= [ i for i in s if i in "aeiouAEIOU"]
+# print(data)
+
+#---------------------------------------------------------------------------------------------------
 #2 set
 
 # set ={}
@@ -98,6 +146,8 @@ print(result)
 
 # set= { i for i in range (1,11)}
 # print(set)
+#------------------------------------------------------------------------------------------
 #3 tuple (generator)
+#-------------------------------------------------------------------------------------------
 
 #4dictionary
