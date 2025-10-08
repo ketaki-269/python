@@ -207,7 +207,6 @@
 # print(t)
 
 # 8. Create a tuple of all vowels present in "education".
-# Create a tuple of all vowels present in "education"
 t = tuple(ch for ch in "education" if ch in "aeiou")
 print(t)
 
