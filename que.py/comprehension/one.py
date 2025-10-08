@@ -127,19 +127,14 @@
 
 
 # 9. Extract all words longer than 4 letters from "Python list comprehension is powerful".
-# li = ["Python" ,"list" , "comprehension"  , "is" , "powerful"]
-# # li= "Python list comprehension is powerful"
-# result = [i for i in li if len(i) > 4]
-# print(result)
-
 # sentence = "Python list comprehension is powerful"
 # result = [word for word in sentence.split() if len(word) > 4]
 # print(result)
 
 # 10. From a sentence, extract words that start with a vowel.
-s = "From a sentence, extract words that start with a vowel."
-result = [i for i in s.split() if i[0] in 'aeiouAEIOU']
-print(result)
+# s = "From a sentence, extract words that start with a vowel."
+# result = [i for i in s.split() if i[0] in 'aeiouAEIOU']
+# print(result)
 
 
 #---------------------------------------------------------------------------------------------------
@@ -155,14 +150,31 @@ print(result)
 # 1. Create a set of squares from 1 to 10. {x**2 for x in range(1,11)}
 # data={i**2 for i in range (1,11,) }
 # print (data)
+
 # 2. Create a set of even numbers from 1 to 20.
 # data={i for i in range (1,21,) if i%2==0}
 # print (data)
+
 # 3. Create a set of characters from "banana".
+# data="banana"
+# print(data)
+
 # 4. From [1,2,2,3,4,4,5], create a set of unique elements.
+# form = {i for i in [1,2,2,3,4,4,5]}
+# print(form)
+
 # 5. Create a set of numbers from 1–30 divisible by 3 or 5.
+# data= {i for i in range(1, 31) if i % 5 == 0  or  i % 6 == 0}
+# print(data)
+
 # 6. Generate a set of cubes for numbers 1–10 but only include cubes < 100.
+cubes = {x**3 for x in range(1, 11) if x**3 < 100}
+print(cubes)
+
 # 7. Create a set of squares for only odd numbers between 1 and 15.
+squares = {x**2 for x in range(1, 16) if x % 2 != 0}
+print(squares)
+
 #------------------------------------------------------------------------------------------
 #3 tuple (generator)
 # 1. Create a tuple of squares from 1 to 5.

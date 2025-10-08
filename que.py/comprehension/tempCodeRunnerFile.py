@@ -1,0 +1,1 @@
+Create a set of squares for only odd numbers between 1 and 15.
