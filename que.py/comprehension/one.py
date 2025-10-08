@@ -239,7 +239,7 @@
 # ans={i:ord(i) for i in s if i in "aeiouAEIOU"}
 # print(ans)
 # 11. Create a dictionary mapping each word in a sentence to its length.
-# keys = ['a','b','c','d','e']
-# values = [1,2,3,4,5]
-
+keys = ['a','b','c','d','e']
+values = [1,2,3,4,5]
+ans= {keys[i]:values[i] for i in range (len(keys))}
 # 12. Given a dictionary of student marks, extract students who scored above 80.
