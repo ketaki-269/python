@@ -176,16 +176,41 @@
 # print(squares)
 
 #------------------------------------------------------------------------------------------
-#3 tuple (generator)
+# 3  In tuple (generator) IN COMPREHENSION FORM 
 # 1. Create a tuple of squares from 1 to 5.
 # tuple(x**2 for x in range(1,6))
+# t = tuple(x**2 for x in range(1, 6))
+# print(t)
+
 # 2. Create a tuple of even numbers from 2 to 10.
+# t = tuple(x for x in range(2, 11) if x % 2 == 0)
+# print(t)
+
 # 3. Convert a list ['a', 'b', 'c'] to uppercase letters as a tuple.
+# t = tuple(x.upper() for x in ['a', 'b', 'c'])
+# print(t)
+
 # 4. Create a tuple of cubes of numbers from 1 to 7.
+# t = tuple(x**3 for x in range(1, 8))
+# print(t)
+
 # 5. Create a tuple of lengths of words in ["hi", "python", "list"].
+# t = tuple(len(word) for word in ["hi", "python", "list"])
+# print(t)
+
 # 6. Generate a tuple of numbers divisible by 7 between 1 and 50.
+# t = tuple(x for x in range(1, 51) if x % 7 == 0)
+# print(t)
+
 # 7. Convert the characters of a string "hello" into a tuple.
+# t = tuple(ch for ch in "hello")
+# print(t)
+
 # 8. Create a tuple of all vowels present in "education".
+# Create a tuple of all vowels present in "education"
+t = tuple(ch for ch in "education" if ch in "aeiou")
+print(t)
+
 #-------------------------------------------------------------------------------------------
 
 #4dictionary
@@ -208,38 +233,34 @@
 # for i,j in zip (keys,values):
 #     ans[i]=j
 # print(ans)    
-
 # 3. Convert all keys of a dictionary to uppercase.
 # keys = ['name', 'age', 'city']
 # values = ["Jatin" , 22, 'Bhopal']
 # dict = {"name": "Jatin", "age":22, "city": "Bhopal"}
 # output = {i.upper() for i in dict}
 # print(output)
-
 # 4. Count the frequency of each character in "python".
 # word = "pythonn"
 # output= {i: word.count(i) for i in word}
 # print(output)
-
 # 6. Swap keys and values of a dictionary.
 # dict = {"name": "Jatin", "age":22, "city": "Bhopal"}
 # output= {v:k for k,v in dict.items()}
 # print(output)
-
-
-
 # 7. Filter dictionary items where value > 10.
-
 # data={100:34,30:50,60:2,50:64}
 # ans= {i:j for i,j  in data.items() if i>10}
 # print(ans)
-
 # 8. Create a dictionary of vowels and their ASCII values.
 # s="a dictionary of vowels and their ASCII values"
 # ans={i:ord(i) for i in s if i in "aeiouAEIOU"}
 # print(ans)
 # 11. Create a dictionary mapping each word in a sentence to its length.
-keys = ['a','b','c','d','e']
-values = [1,2,3,4,5]
-ans= {keys[i]:values[i] for i in range (len(keys))}
+# keys = ['a','b','c','d','e']
+# values = [1,2,3,4,5]
+# ans= {keys[i]:values[i] for i in range (len(keys))}
+# print(ans)
 # 12. Given a dictionary of student marks, extract students who scored above 80.
+# marks = {'ketaki': 85, 'Antu': 78, 'Prakru': 92, 'kalyani': 80, 'Aanya': 88}
+# above = {i: i for j, i in marks.items() if j > 80}
+# print(above)
