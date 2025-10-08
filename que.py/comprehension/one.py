@@ -168,12 +168,12 @@
 # print(data)
 
 # 6. Generate a set of cubes for numbers 1–10 but only include cubes < 100.
-cubes = {x**3 for x in range(1, 11) if x**3 < 100}
-print(cubes)
+# cubes = {x**3 for x in range(1, 11) if x**3 < 100}
+# print(cubes)
 
 # 7. Create a set of squares for only odd numbers between 1 and 15.
-squares = {x**2 for x in range(1, 16) if x % 2 != 0}
-print(squares)
+# squares = {x**2 for x in range(1, 16) if x % 2 != 0}
+# print(squares)
 
 #------------------------------------------------------------------------------------------
 #3 tuple (generator)
@@ -189,3 +189,57 @@ print(squares)
 #-------------------------------------------------------------------------------------------
 
 #4dictionary
+# 1. Create a dictionary where keys are numbers from 1 to 5 and values are their squares.
+# {x: x**2 for x in range(1,6)}
+# ans= {i:i**2 for i in range (1,6,)}
+# print(ans)
+# 2. Create a dictionary from two lists:
+# keys = ['name', 'age', 'city']
+# values = [‘Jatin’, 22, 'Bhopal']
+# {‘name’: ‘Jatin’, ‘age’:22, ‘city’: ‘Bhopal’}
+# keys = ['name', 'age', 'city']
+# values = ["Jatin" , 22, 'Bhopal']
+# ans= {keys[i]:values[i] for i in range (len(keys))}
+
+# not in comprehension
+# keys = ['name', 'age', 'city']
+# values = ["Jatin" , 22, 'Bhopal']
+# ans={}
+# for i,j in zip (keys,values):
+#     ans[i]=j
+# print(ans)    
+
+# 3. Convert all keys of a dictionary to uppercase.
+# keys = ['name', 'age', 'city']
+# values = ["Jatin" , 22, 'Bhopal']
+# dict = {"name": "Jatin", "age":22, "city": "Bhopal"}
+# output = {i.upper() for i in dict}
+# print(output)
+
+# 4. Count the frequency of each character in "python".
+# word = "pythonn"
+# output= {i: word.count(i) for i in word}
+# print(output)
+
+# 6. Swap keys and values of a dictionary.
+# dict = {"name": "Jatin", "age":22, "city": "Bhopal"}
+# output= {v:k for k,v in dict.items()}
+# print(output)
+
+
+
+# 7. Filter dictionary items where value > 10.
+
+# data={100:34,30:50,60:2,50:64}
+# ans= {i:j for i,j  in data.items() if i>10}
+# print(ans)
+
+# 8. Create a dictionary of vowels and their ASCII values.
+# s="a dictionary of vowels and their ASCII values"
+# ans={i:ord(i) for i in s if i in "aeiouAEIOU"}
+# print(ans)
+# 11. Create a dictionary mapping each word in a sentence to its length.
+# keys = ['a','b','c','d','e']
+# values = [1,2,3,4,5]
+
+# 12. Given a dictionary of student marks, extract students who scored above 80.
