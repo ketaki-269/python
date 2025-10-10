@@ -70,23 +70,22 @@
 # print(a)
 
 # q-5 reverse number 
-def reverse_number(num):
-    rev = 0
-    while num > 0:
-        rev = rev * 10 + num % 10
-        num //= 10
-    return rev
-print(reverse_number(1234))
-a = reverse_number(9876)
-print(a)
+# def reverse_number(num):
+#     rev = 0
+#     while num > 0:
+#         rev = rev * 10 + num % 10
+#         num //= 10
+#     return rev
+# print(reverse_number(1234))
+# a = reverse_number(9876)
+# print(a)
 
 #q-6 pallindrom
 # def is_palindrome(num):
 #     original = num
 #     rev = 0
 #     while num > 0:
-#         digit = num % 10
-#         rev = rev * 10 + digit
+#         rev = rev * 10 + num % 10 
 #         num //= 10
 #     if original == rev:
 #         return "Palindrome number"
@@ -102,8 +101,7 @@ print(a)
 #     count = len(str(num))
 #     result = 0
 #     while temp > 0:
-#         digit = temp % 10
-#         result += digit ** count
+#         result += temp % 10  ** count
 #         temp //= 10
 #     if result == num:
 #         return "Armstrong number"
@@ -137,11 +135,9 @@ print(a)
 # def reverse_number(num):
 #     rev = 0
 #     while num > 0:
-#         digit = num % 10
-#         rev = rev * 10 + digit
+#         rev = rev * 10 + num % 10 
 #         num //= 10
 #     print("Reversed number:", rev)
-
 # reverse_number(1234)
 
 
@@ -150,14 +146,12 @@ print(a)
 #     original = num
 #     rev = 0
 #     while num > 0:
-#         digit = num % 10
-#         rev = rev * 10 + digit
+#         rev = rev * 10 + num % 10
 #         num //= 10
 #     if original == rev:
 #         print(original, "is a Palindrome number")
 #     else:
 #         print(original, "is Not a Palindrome number")
-
 # is_palindrome(121)
 
 
@@ -168,13 +162,22 @@ print(a)
 #     count = len(str(num))
 #     result = 0
 #     while temp > 0:
-#         digit = temp % 10
-#         result += digit ** count
+#         result += temp%10 ** count
 #         temp //= 10
 #     if result == num:
 #         print(num, "is an Armstrong number")
 #     else:
 #         print(num, "is Not an Armstrong number")
-
 # is_armstrong(153)
 
+#10-10-2025
+# do all que with slicing 
+# sum of all elements in a list
+def sum_of_list(data): 
+   ans=0
+   for i in data:
+      ans+=1
+      return ans
+li=[] 
+ans=sum_of_list(li)
+print(li)     
