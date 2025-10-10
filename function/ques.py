@@ -126,13 +126,13 @@
 # prime_numbers(20)
 
 # Que-4 Sum of natural numbers
-# def sum_natural(num):
-#     total = 0
-#     for i in range(1, num + 1):
-#         total += i
-#     print("Sum of natural numbers up to", num, "is:", total)
-# sum_natural(5)
-# sum_natural(10)
+def sum_natural(num):
+    total = 0
+    for i in range(1, num + 1):
+        total += i
+    print("Sum of natural numbers up to", num, "is:", total)
+sum_natural(5)
+
 
 # Que -5 Reverse number
 # def reverse_number(num):
@@ -144,7 +144,7 @@
 #     print("Reversed number:", rev)
 
 # reverse_number(1234)
-# reverse_number(9876)
+
 
 # Que-6 Palindrome number
 # def is_palindrome(num):
@@ -160,7 +160,7 @@
 #         print(original, "is Not a Palindrome number")
 
 # is_palindrome(121)
-# is_palindrome(123)
+
 
 
 # Q-7 Armstrong number
@@ -178,4 +178,4 @@ def is_armstrong(num):
         print(num, "is Not an Armstrong number")
 
 is_armstrong(153)
-is_armstrong(123)
+
