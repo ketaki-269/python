@@ -70,16 +70,15 @@
 # print(a)
 
 # q-5 reverse number 
-# def reverse_number(num):
-#     rev = 0
-#     while num > 0:
-#         digit = num % 10
-#         rev = rev * 10 + digit
-#         num //= 10
-#     return rev
-# print(reverse_number(1234))
-# a = reverse_number(9876)
-# print(a)
+def reverse_number(num):
+    rev = 0
+    while num > 0:
+        rev = rev * 10 + num % 10
+        num //= 10
+    return rev
+print(reverse_number(1234))
+a = reverse_number(9876)
+print(a)
 
 #q-6 pallindrom
 # def is_palindrome(num):
@@ -126,12 +125,12 @@
 # prime_numbers(20)
 
 # Que-4 Sum of natural numbers
-def sum_natural(num):
-    total = 0
-    for i in range(1, num + 1):
-        total += i
-    print("Sum of natural numbers up to", num, "is:", total)
-sum_natural(5)
+# def sum_natural(num):
+#     total = 0
+#     for i in range(1, num + 1):
+#         total += i
+#     print("Sum of natural numbers", num, "is:", total)
+# sum_natural(5)
 
 
 # Que -5 Reverse number
@@ -164,18 +163,18 @@ sum_natural(5)
 
 
 # Q-7 Armstrong number
-def is_armstrong(num):
-    temp = num
-    count = len(str(num))
-    result = 0
-    while temp > 0:
-        digit = temp % 10
-        result += digit ** count
-        temp //= 10
-    if result == num:
-        print(num, "is an Armstrong number")
-    else:
-        print(num, "is Not an Armstrong number")
+# def is_armstrong(num):
+#     temp = num
+#     count = len(str(num))
+#     result = 0
+#     while temp > 0:
+#         digit = temp % 10
+#         result += digit ** count
+#         temp //= 10
+#     if result == num:
+#         print(num, "is an Armstrong number")
+#     else:
+#         print(num, "is Not an Armstrong number")
 
-is_armstrong(153)
+# is_armstrong(153)
 
