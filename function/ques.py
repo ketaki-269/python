@@ -186,29 +186,82 @@
 # 11-10-2025
 # important for interview
 # print fucntion - use to display value
-def print1to10():
-    for i in range(1,11):
-        print(i)
-print1to10() 
-# return function 
-def print1to10():
-    for i in range(1,11):
-        return i
-print1to10()    
+# def print1to10():
+#     for i in range(1,11):
+#         print(i)
+# print1to10() 
+# # return function 
+# def print1to10():
+#     for i in range(1,11):
+#         return i
+# print1to10()    
 #next function - use to print value again and again 
-def print1to10():
-    for i in range(1,11):
-        yield i
-ans= print1to10()    
-print(next(ans))
-print(next(ans))
-print(next(ans))
-print(next(ans))
-
+# def print1to10():
+#     for i in range(1,11):
+#         yield i
+# ans= print1to10()    
+# print(next(ans))
+# print(next(ans))
+# print(next(ans))
+# print(next(ans))
+#important
 # yield function-  also know as generator ,it works on single memory 
-def print1to10():
-    for i in range(1,11):
-        yield i
-ans= print1to10()
-for i in ans:
-    print(i,end=" ")
+# def print1to10():
+#     for i in range(1,11):
+#         yield i
+# ans= print1to10()
+# for i in ans:
+#     print(i,end=" ")
+
+
+#we do not use retyurn in large data set , as it allocate the memory till end 
+# def print1to10():
+#     for i in range (1,11):
+#             for j in range (10,20):
+#              return j
+#     return i 
+# ans= print1to10()
+# print(ans)
+#
+# we can use generator in large data set 
+# def print1to10():
+#     for i in range (1,11):
+#             for j in range (10,20):
+#              yield j
+#     yield i 
+# ans= print1to10()
+# print(ans)
+
+# types of argument 
+# 1.positional argument - 
+# 2. keyword argument
+# 3.defoult argument
+# 4.valriable length argument
+# 5.keyword variable length argument
+
+# 1.positional argument - sunction jitne argument mang raha hai use utne hi chahiye hote hai 
+# def student_data(num,rolno):
+#     print(f"hello(name)your rollno is (rollno)")
+# student_data("raj",1023)
+# 2.keyword argument -  like ispe specify kerdengi key deke jise name name me hi jake store ho bhale line of  code me kahi bhi diya ho 
+# def student_data(num,rollno):
+#     print(f"hello(name)your rollno is (rollno)")
+# student_data(rollno=1023,name="raj")
+# 3.defoult argument -  
+# def addtion (a,b):
+#     print(a+b)
+# addtion(10,50)    
+# like if in this ager kisi ne ek hi argument diya kisine toh vo wrroe na deke second value defuat lele 
+# jese ese 
+def addtion (a=0,b=0):
+    if b==0:
+        print(a)
+    elif a==0 and b==0:
+        print("both are zero")
+    elif a!=0 and b!=0:
+       print(a+b)    
+    else:     
+     print(a+b)
+addtion()
+
+#fucntion overloading defualt fucntion ke trough hi archive hoti hau python me
