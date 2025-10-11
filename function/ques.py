@@ -173,11 +173,42 @@
 #10-10-2025
 # do all que with slicing 
 # sum of all elements in a list
-def sum_of_list(data): 
-   ans=0
-   for i in data:
-      ans+=1
-      return ans
-li=[] 
-ans=sum_of_list(li)
-print(li)     
+# def sum_of_list(data): 
+#    ans=0
+#    for i in data:
+#       ans+=1
+#       return ans
+# li=[] 
+# ans=sum_of_list(li)
+# print(li)     
+
+
+# 11-10-2025
+# important for interview
+# print fucntion - use to display value
+def print1to10():
+    for i in range(1,11):
+        print(i)
+print1to10() 
+# return function 
+def print1to10():
+    for i in range(1,11):
+        return i
+print1to10()    
+#next function - use to print value again and again 
+def print1to10():
+    for i in range(1,11):
+        yield i
+ans= print1to10()    
+print(next(ans))
+print(next(ans))
+print(next(ans))
+print(next(ans))
+
+# yield function-  also know as generator ,it works on single memory 
+def print1to10():
+    for i in range(1,11):
+        yield i
+ans= print1to10()
+for i in ans:
+    print(i,end=" ")
