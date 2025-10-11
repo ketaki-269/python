@@ -247,21 +247,29 @@
 # def student_data(num,rollno):
 #     print(f"hello(name)your rollno is (rollno)")
 # student_data(rollno=1023,name="raj")
-# 3.defoult argument -  
+# 3.defoult argument -   single fucntion me jab multiple task perfrom kerne ho toh iska jada use hota hai 
 # def addtion (a,b):
 #     print(a+b)
 # addtion(10,50)    
 # like if in this ager kisi ne ek hi argument diya kisine toh vo wrroe na deke second value defuat lele 
 # jese ese 
-def addtion (a=0,b=0):
-    if b==0:
-        print(a)
-    elif a==0 and b==0:
-        print("both are zero")
-    elif a!=0 and b!=0:
-       print(a+b)    
-    else:     
-     print(a+b)
-addtion()
+# def addtion (a=0,b=0):
+#     if b==0:
+#         print(a)
+#     elif a==0 and b==0:
+#         print("both are zero")
+#     elif a!=0 and b!=0:
+#        print(a+b)    
+#     else:     
+#      print(a+b)
+# addtion()
 
-#fucntion overloading defualt fucntion ke trough hi archive hoti hau python me
+#fucntion overloading defualt funtion ke trough hi archive hoti hai python me kyuki  vese fucntion overloading pyhton me nhi hoti 
+# 4.valriable length argument-  * is use 
+def sumofallnumber(*num):
+   ans=0
+   for i in num:
+      ans+=i
+   return ans
+sumofallnumber(1,2,3,4,6,34,6,6)
+# 5.keyword variable length argument
