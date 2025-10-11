@@ -265,11 +265,16 @@
 # addtion()
 
 #fucntion overloading defualt funtion ke trough hi archive hoti hai python me kyuki  vese fucntion overloading pyhton me nhi hoti 
-# 4.valriable length argument-  * is use 
-def sumofallnumber(*num):
-   ans=0
-   for i in num:
-      ans+=i
-   return ans
-sumofallnumber(1,2,3,4,6,34,6,6)
-# 5.keyword variable length argument
+# 4.valriable length argument-  * is use  or ye list me nhi ayegna
+# def sumofallnumber(*num):
+#    ans=0
+#    for i in num:
+#       ans+=i
+#    return ans
+# sumofallnumber(1,2,3,4,6,34,6,6)
+# 5.keyword variable length argument - ** is use ,it use to store data in key and value pattern 
+def printdata(**data):
+    for i,j in data.items():
+        print(f"hello {i} rollno {j}")
+
+printdata(raj=101,jatin=20)        
