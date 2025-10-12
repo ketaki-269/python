@@ -276,5 +276,4 @@
 def printdata(**data):
     for i,j in data.items():
         print(f"hello {i} rollno {j}")
-
 printdata(raj=101,jatin=20)        
