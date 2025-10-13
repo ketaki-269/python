@@ -74,5 +74,6 @@
 # 10 Write a lambda function to sort a list of tuples based on the second element.
 # Input: [(2,5), (1,2), (4,1)] → Output: [(4,1), (1,2), (2,5)]
 li=[(2,5), (1,2), (4,1)]
-sorted(li,key=lambda x:x(1))
+li=sorted(li,key=lambda x:x[1])
+print(li)
 
