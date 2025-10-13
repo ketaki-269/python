@@ -38,12 +38,41 @@
 # 3 Write a lambda function to find the maximum of two numbers.
 # ans=lambda x,y:x if x>y else y
 # print(ans(8,70))  
-
 # 4 Write a lambda function to check if a number is even or odd.
 # Input: 7 → Output: "Odd"
-ans=lambda num:"even" if  num%2==0 else "odd"
-print(ans(7))
+# ans=lambda num:"even" if  num%2==0 else "odd"
+# print(ans(7))
 # 5 Write a lambda function to get the length of a given string.
 # Input: "Mahesh" → Output: 6
-x="mahesh"
-ans =lambda x :len(x)
+# x="mahesh"
+# ans =lambda x :len(x)
+# print(ans(x))
+
+
+#6 Write a lambda function to reverse a string.
+# Input: "hello" → Output: "olleh"
+# x="hello"
+# ans=lambda x :x[::-1]
+# print(ans(x))
+#7 Write a lambda function to check if a string is a palindrome.
+# Input: "level" → Output: True
+# x="level"
+# ans=lambda x :x==x[::-1]
+# print(ans(x))
+# #8 Write a lambda function to find the cube of a number.
+# # Input: 3 → Output: 27
+# ans=lambda num:  num**3
+# print(ans(3))
+# 9 Write a lambda function to find the largest number in a list using max() and key=lambda.
+# Input: [5, 8, 2, 9, 1] → Output: 9
+# x=[5, 8, 2, 9, 1]
+# ans=lambda x:max(x)
+# print(ans(x))
+# by sir 
+# li =[5, 8, 2, 9, 1]
+# max(li,key=lambda x:x)
+# 10 Write a lambda function to sort a list of tuples based on the second element.
+# Input: [(2,5), (1,2), (4,1)] → Output: [(4,1), (1,2), (2,5)]
+li=[(2,5), (1,2), (4,1)]
+sorted(li,key=lambda x:x(1))
+
