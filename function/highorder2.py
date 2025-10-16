@@ -49,14 +49,33 @@
 # li=[10, 15, 30, 42, 60, 70]
 # ans=list(filter(lambda x: x%3==0 and x%5==0,li))
 # print (ans)
-# 1 Filter names that contain the letter 'a' or 'A'.
+
+#10 Filter names that contain the letter 'a' or 'A'.
 # Input: ["Rahul", "Raj", "Python", "Code"] → Output: ["Rahul", "Raj"]
-# 1 Filter numbers whose square is greater than 50.
+# li = ["Rahul", "Raj", "Python", "Code"]
+# ans = list(filter(lambda x: 'a'  in x, li))
+# print(ans)
+
+#11 Filter numbers whose square is greater than 50.
 # Input: [2, 4, 6, 8, 10] → Output: [8, 10]
-# 1 Filter words ending with 'ing'.
+# li = [2, 4, 6, 8, 10]
+# ans = list(filter(lambda x: x**2>50, li))
+# print(ans)
+#12 Filter words ending with 'ing'.
 # Input: ["running", "play", "eating", "dance"] → Output: ["running", "eating"]
-# 1 Filter elements that are strings from a mixed list.
+# li = ["running", "play", "eating", "dance"]
+# ans = list(filter(lambda x: x.endswith('ing'), li))
+# print(ans)
+#13 Filter elements that are strings from a mixed list.
 # Input: [1, "apple", 3.5, "banana", True, "cherry"] → Output: ["apple", "banana", "cherry"]
-# 1 Filter employees older than 25 from a list of tuples (name, age).
+
+
+
+
+
+#14 Filter employees older than 25 from a list of tuples (name, age).
 # Input: [("Rohit", 22), ("Rahul", 26), ("Raj", 30)]
 # Output: [("Rahul", 26), ("Raj", 30)]
+li=[("Rohit", 22), ("Rahul", 26), ("Raj", 30)]
+ans = list(filter(lambda x: x[1]>25, li))
+print(ans)
