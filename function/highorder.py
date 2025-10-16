@@ -4,6 +4,7 @@
 # commun in 3 ( function, iterable - object)
 
 
+# 1. map
 #add 10 to each i a list
 # [1,2,3],o/p[11,12,13]
 # li=[1,2,3]
@@ -88,6 +89,6 @@ print(ans)
 # 15. Convert a list of tuples (name, age) into formatted strings using map().
 # Input: [("Raj", 22), ("rahul", 21)]
 # Output: ["Raj is 22 years old", " rahul is 21 years old"]
-li=[("Raj", 22), ("Rahul", 21)]
-ans=list(map(lambda x:f"{x[0]} is {x[1]} year old",li))
-print(ans)
+# li=[("Raj", 22), ("Rahul", 21)]
+# ans=list(map(lambda x:f"{x[0]} is {x[1]} year old",li))
+# print(ans)
