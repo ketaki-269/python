@@ -1,6 +1,7 @@
 # 3.reduce
 # for using reduce we have to first include library
 # it will always take 2 arguments 
+
 # 1 Find the sum of all numbers in a list using reduce().
 # Input: [1, 2, 3, 4, 5] → Output: 15
 from functools import reduce
