@@ -63,9 +63,9 @@
 # print(ans)
 #12 Filter words ending with 'ing'.
 # Input: ["running", "play", "eating", "dance"] → Output: ["running", "eating"]
-# li = ["running", "play", "eating", "dance"]
-# ans = list(filter(lambda x: x.endswith('ing'), li))
-# print(ans)
+li = ["running", "play", "eating", "dance"]
+ans = list(filter(lambda x: x.endswith('ing'), li))
+print(ans)
 #13 Filter elements that are strings from a mixed list.
 # Input: [1, "apple", 3.5, "banana", True, "cherry"] → Output: ["apple", "banana", "cherry"]
 
@@ -76,6 +76,6 @@
 #14 Filter employees older than 25 from a list of tuples (name, age).
 # Input: [("Rohit", 22), ("Rahul", 26), ("Raj", 30)]
 # Output: [("Rahul", 26), ("Raj", 30)]
-li=[("Rohit", 22), ("Rahul", 26), ("Raj", 30)]
-ans = list(filter(lambda x: x[1]>25, li))
-print(ans)
+# li=[("Rohit", 22), ("Rahul", 26), ("Raj", 30)]
+# ans = list(filter(lambda x: x[1]>25, li))
+# print(ans)
