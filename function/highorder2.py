@@ -58,9 +58,9 @@
 
 #11 Filter numbers whose square is greater than 50.
 # Input: [2, 4, 6, 8, 10] → Output: [8, 10]
-# li = [2, 4, 6, 8, 10]
-# ans = list(filter(lambda x: x**2>50, li))
-# print(ans)
+li = [2, 4, 6, 8, 10]
+ans = list(filter(lambda x: x**2>50, li))
+print(ans)
 #12 Filter words ending with 'ing'.
 # Input: ["running", "play", "eating", "dance"] → Output: ["running", "eating"]
 # li = ["running", "play", "eating", "dance"]
