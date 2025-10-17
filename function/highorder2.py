@@ -63,9 +63,9 @@
 # print(ans)
 #12 Filter words ending with 'ing'.
 # Input: ["running", "play", "eating", "dance"] → Output: ["running", "eating"]
-li = ["running", "play", "eating", "dance"]
-ans = list(filter(lambda x: x.endswith('ing'), li))
-print(ans)
+# li = ["running", "play", "eating", "dance"]
+# ans = list(filter(lambda x: x.endswith('ing'), li))
+# print(ans)
 #13 Filter elements that are strings from a mixed list.
 # Input: [1, "apple", 3.5, "banana", True, "cherry"] → Output: ["apple", "banana", "cherry"]
 
