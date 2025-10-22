@@ -41,9 +41,9 @@
 # print(ans)
 #8 Filter vowels from a list of characters.
 # Input: ['a', 'b', 'e', 'i', 'o', 'p', 'u'] → Output: ['a', 'e', 'i', 'o', 'u']
-# li = ['a', 'b', 'e', 'i', 'o', 'p', 'u']
-# ans = list(filter(lambda x: x in ['a', 'e', 'i', 'o', 'u'], li))
-# print(ans)
+li = ['a', 'b', 'e', 'i', 'o', 'p', 'u']
+ans = list(filter(lambda x: x in ['a', 'e', 'i', 'o', 'u'], li))
+print(ans)
 #9 Filter numbers    divisible by both 3 and 5.
 # Input: [10, 15, 30, 42, 60, 70] → Output: [15, 30, 60]
 li=[10, 15, 30, 42, 60, 70]
@@ -52,15 +52,15 @@ print (ans)
 
 #10 Filter names that contain the letter 'a' or 'A'.
 # Input: ["Rahul", "Raj", "Python", "Code"] → Output: ["Rahul", "Raj"]
-# li = ["Rahul", "Raj", "Python", "Code"]
-# ans = list(filter(lambda x: 'a'  in x, li))
-# print(ans)
+li = ["Rahul", "Raj", "Python", "Code"]
+ans = list(filter(lambda x: 'a'  in x, li))
+print(ans)
 
 #11 Filter numbers whose square is greater than 50.
 # Input: [2, 4, 6, 8, 10] → Output: [8, 10]
-li = [2, 4, 6, 8, 10]
-ans = list(filter(lambda x: x**2>50, li))
-print(ans)
+# li = [2, 4, 6, 8, 10]
+# ans = list(filter(lambda x: x**2>50, li))
+# print(ans)
 #12 Filter words ending with 'ing'.
 # Input: ["running", "play", "eating", "dance"] → Output: ["running", "eating"]
 # li = ["running", "play", "eating", "dance"]
