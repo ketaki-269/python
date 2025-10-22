@@ -41,14 +41,14 @@
 # print(ans)
 #8 Filter vowels from a list of characters.
 # Input: ['a', 'b', 'e', 'i', 'o', 'p', 'u'] → Output: ['a', 'e', 'i', 'o', 'u']
-li = ['a', 'b', 'e', 'i', 'o', 'p', 'u']
-ans = list(filter(lambda x: x in ['a', 'e', 'i', 'o', 'u'], li))
-print(ans)
+# li = ['a', 'b', 'e', 'i', 'o', 'p', 'u']
+# ans = list(filter(lambda x: x in ['a', 'e', 'i', 'o', 'u'], li))
+# print(ans)
 #9 Filter numbers    divisible by both 3 and 5.
 # Input: [10, 15, 30, 42, 60, 70] → Output: [15, 30, 60]
-li=[10, 15, 30, 42, 60, 70]
-ans=list(filter(lambda x: x%3==0 and x%5==0,li))
-print (ans)
+# li=[10, 15, 30, 42, 60, 70]
+# ans=list(filter(lambda x: x%3==0 and x%5==0,li))
+# print (ans)
 
 #10 Filter names that contain the letter 'a' or 'A'.
 # Input: ["Rahul", "Raj", "Python", "Code"] → Output: ["Rahul", "Raj"]
