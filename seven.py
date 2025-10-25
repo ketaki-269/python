@@ -6,28 +6,28 @@
 
 a =10
 b=10
-print(id(a))
-print(id(b))
+# print(id(a))
+# print(id(b))
 print (a is b)
 
 
 
-a =1
-b=11
-print (a is b)
+# a =1
+# b=11
+# print (a is b)
 
 
 
-a =10
-b=10
-print(id(a))
-print(id(b))
-print (a is not  b)
+# a =10
+# b=10
+# print(id(a))
+# print(id(b))
+# print (a is not  b)
 
 
 
-a =123
-b=321
-print(id(a))
-print(id(b))
-print (a is not b)
+# a =123
+# b=321
+# print(id(a))
+# print(id(b))
+# print (a is not b)
