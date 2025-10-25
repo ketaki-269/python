@@ -51,9 +51,9 @@
 # # print (ans)
 
 # #10. check the year is leap year or not 
-year=int(input ("Enter year: "))
-result="Leap year" if year%4==0 else"Not a leap year"
-print(result)
+# year=int(input ("Enter year: "))
+# result="Leap year" if year%4==0 else"Not a leap year"
+# print(result)
 
 # #11. check the no is negative or positive
 # # num=int(input("Enter number:"))
@@ -87,7 +87,7 @@ print(result)
 # # print(ans)
 # # or 
 
-# # value =input("Enter character: ")
-# # chr = "aeiou"
-# # ans="vowel" if  "aeiou"in chr else"Constant"
-# # print(ans)
+value =input("Enter character: ")
+# chr = "aeiou"
+ans="vowel" if value in ( "a", "e" ,"i", "o" ,"u" ) else "Constant"
+print(ans)
