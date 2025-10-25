@@ -6,7 +6,7 @@
 # elif marks>50 and marks<=70:
 #     print("B GARDE")  
 # elif marks>70 and marks<=100:
-#     print("C GARDE")          
+#     print("A GARDE")          
 # else:
 #     print("Invalid") 
 
@@ -41,7 +41,6 @@
 #     print(amount-(amount*10/100))  
 # elif amount>50000:
 #     print(amount-(amount*15/100)) 
-
 # else:
 #     print("Invalid")    
 
@@ -65,18 +64,18 @@
 
 
 # Code
-a = int(input("Enter an number1:"))
-b= int(input("Enter an number2:"))
-c = int(input("Enter an number3:"))
+# a = int(input("Enter an number1:"))
+# b= int(input("Enter an number2:"))
+# c = int(input("Enter an number3:"))
 
-if a>b and a>c :
-    print(a )
-elif b>a and b>c :
-    print(b ) 
-elif c>a and c>b :
-    print(b ) 
-else:
-    ("Invalid")    
+# if a>b and a>c :
+#     print(a )
+# elif b>a and b>c :
+#     print(b ) 
+# elif c>a and c>b :
+#     print(b ) 
+# else:
+#     ("Invalid")    
 
 # 4 days inn week ?
 #      1-MONDAY
@@ -109,15 +108,15 @@ else:
 # 10-20 = 200
 # 20-30 =250
 # above 30 =300
-# age =int(input("Enter Age: "))
-# if age>=0 and age<=10:
-#     print("100")
-# elif age>10 and age<=20:
-#     print("200")
-# elif age>20 and age<=30:
-#     print("250")  
-# elif age<=30:
-#     print("300")          
-# else:
-#     print("Invalid") 
+age =int(input("Enter Age: "))
+if age>=0 and age<=10:
+    print("100")
+elif age>10 and age<=20:
+    print("200")
+elif age>20 and age<=30:
+    print("250")  
+elif age<=30:
+    print("300")          
+else:
+    print("Invalid") 
 
