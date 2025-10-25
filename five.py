@@ -18,3 +18,5 @@
 
 x = 5
 print(x < 0 or x == 5)
+flag = False
+print(not flag)
