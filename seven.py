@@ -4,11 +4,11 @@
 # is same address hai 
 # isnot  same address nhi hai
 
-a =10
-b=10
-# print(id(a))
-# print(id(b))
-print (a is b)
+# a =10
+# b=10
+# # print(id(a))
+# # print(id(b))
+# print (a is b)
 
 
 
@@ -18,11 +18,11 @@ print (a is b)
 
 
 
-# a =10
-# b=10
+a =10
+b=10
 # print(id(a))
 # print(id(b))
-# print (a is not  b)
+print (a is not  b)
 
 
 
