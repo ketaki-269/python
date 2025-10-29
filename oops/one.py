@@ -64,7 +64,7 @@
 #create using - __init__
 # defult constructor
 # parametarize constructor 
-# instance -
+# instance  Variable -
 # constructor with out parameter --------------
 # class student :
 #     def __init__(self):
@@ -90,3 +90,4 @@ class student :
         if a!=0 and b!=0:                 # this will run if obj = student(1,1 ) 
             print(a+b)    
 obj = student(1,1 )   
+
