@@ -65,6 +65,7 @@
 # defult constructor
 # parametarize constructor 
 # instance  Variable -
+#class variable-
 # constructor with out parameter --------------
 # class student :
 #     def __init__(self):
@@ -81,14 +82,43 @@
 # obj = student(2,3)      
 
 
-class student :
-    def __init__(self,a=0,b=0):
-        if a==0 and b==0:            #this will run if obj = student( ) 
-            print("value was not given")
-        if a!=0 and b==0:             # this will run if obj = student(1 ) 
-            print(a)
-        if a!=0 and b!=0:                 # this will run if obj = student(1,1 ) 
-            print(a+b)    
-obj = student(1,1 )   
+# class student :
+#     def __init__(self,a=0,b=0):
+#         if a==0 and b==0:            #this will run if obj = student( ) 
+#             print("value was not given")
+#         if a!=0 and b==0:             # this will run if obj = student(1 ) 
+#             print(a)
+#         if a!=0 and b!=0:                 # this will run if obj = student(1,1 ) 
+#             print(a+b)    
+# obj = student(1,1 )   
 
 # 30-10-2025
+# class student:
+#     def __init__(self,name,marks):
+#         self.name=name # intance variable 
+#         self.marks=marks
+# obj1= student("jatin",700)   
+# obj2= student ("raj",90)     
+# print(obj1 .name)
+# print(obj2.name)
+# obj1.name = "rahul"
+# print(obj1 .name)
+# print(obj2.name)
+
+
+# class variable
+# instance variable
+
+class student:
+    colege_name="XYZ College"  #class variable
+    def __init__(self,name,marks):
+        self.name=name # intance variable 
+        self.marks=marks
+obj1= student("jatin",700)   
+obj2= student ("raj",90)     
+print(obj1 .name)
+print(obj2.name)
+obj1.name = "rahul"
+student.colege_name="IPER"
+print(obj1 .colege_name)
+print(obj2.colege_name)
