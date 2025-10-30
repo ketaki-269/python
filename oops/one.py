@@ -110,16 +110,31 @@
 # use of class variable jab ek sath sab me change hona jo toh class variable like ek sath sab ki salary 10 % badhi 
 # instance variable- ye object dependent hota hai 
 
-class student:
-    colege_name="XYZ College"  #class variable
-    def __init__(self,name,marks):
-        self.name=name # intance variable 
-        self.marks=marks
-obj1= student("jatin",700)   
-obj2= student ("raj",90)     
-print(obj1 .name)
-print(obj2.name)
-obj1.name = "rahul"
-student.colege_name="IPER"
-print(obj1 .colege_name)
-print(obj2.colege_name)
+# class student:
+#     college_name="XYZ College"  #class variable
+#     def __init__(self,name,marks):
+#         self.name=name # intance variable 
+#         self.marks=marks
+# obj1= student("jatin",700)   
+# obj2= student ("raj",90)     
+# print(obj1 .name)
+# print(obj2.name)
+# obj1.name = "rahul"
+# student.colege_name="IPER"
+# print(obj1 .colege_name)
+# print(obj2.colege_name)
+
+
+# quetion related to normal fucntion, intance variable, class variable
+
+class employee:
+    company_name= "IT Solution"
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    def show_data(self):
+        print(f"Welcome {self.name} your salary is ₹ {self.salary} and your company name is {self.company_name}" )
+obj1=employee("Jatin",500000)
+obj2=employee("Raj",6000000)
+obj1.show_data()
+obj2.show_data()            
