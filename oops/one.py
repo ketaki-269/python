@@ -137,4 +137,6 @@ class employee:
 obj1=employee("Jatin",500000)
 obj2=employee("Raj",6000000)
 obj1.show_data()
-obj2.show_data()            
+obj2.show_data()
+# if esle for fucntion high order fucntion   imp for DA 
+    
