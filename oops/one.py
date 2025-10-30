@@ -106,8 +106,9 @@
 # print(obj2.name)
 
 
-# class variable
-# instance variable
+# class variable - sare object ke liye same honga ye class dependent hota hai,
+# use of class variable jab ek sath sab me change hona jo toh class variable like ek sath sab ki salary 10 % badhi 
+# instance variable- ye object dependent hota hai 
 
 class student:
     colege_name="XYZ College"  #class variable
