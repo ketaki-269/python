@@ -1,4 +1,5 @@
 #polymorphism 
+# c++ me alag hota hai pyhton me alg hota hai as python me pointer nhi hota 
 # print(len("jatin"))
 # print(len([1,2,3,4]))
 # print(len((1,3,4,5,)))
@@ -56,14 +57,15 @@
 
 # addtion polymorphism  with class example 
 class calculation:
-    
-def addition (a=0 , b=0 ,c=0):
+   def addition (self,a=0 , b=0 ,c=0):
     return a+b+c
-ans = addition (1,3,5)
+obj=calculation()
+ans = obj.addition (1,3,5)
 print(ans)
-ans = addition(1,3)
+ans = obj.addition(1,3)
 print(ans)
-ans = addition(1)
+ans = obj.addition(1)
 print(ans)
-ans = addition()
+ans = obj.addition()
 print(ans)
+
