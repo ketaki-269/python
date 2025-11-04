@@ -91,3 +91,15 @@ x={10,20,30}
 y={30,40,50,60}
 print(x-y)
 # 4.symmetric difference ()
+x={10,20,30}
+y={30,40,50,60}
+print(x^y)
+
+# 5.memeberhsip operator 
+# in 
+# NOT IN 
+
+s= set("ketaki")
+print(s)
+print('d' not in s )
+
