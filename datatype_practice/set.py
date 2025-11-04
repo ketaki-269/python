@@ -35,3 +35,6 @@ s={10,20,30}
 s.update(s,range(5))
 print(s)
 # 3.copy()
+s={10,20,30}
+s1=s.copy()
+print(s1)
