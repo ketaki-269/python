@@ -70,7 +70,24 @@
 # t=a,b,c,d
 # print(t)
 
-#unpacking 
-t=(10,20,30,40)
-a,b,c,d=t
-print("a=",a,"b=",b,"c=",c,"d=",d)
+# #unpacking 
+# t=(10,20,30,40)
+# a,b,c,d=t
+# print("a=",a,"b=",b,"c=",c,"d=",d)
+
+#operation on sets 
+
+# 1 union 
+# x={10,20,30}
+# y={40,50,60}
+# print(x|y)
+
+# 2.intersection ()
+# x={10,20,30}
+# y={30,40,50,60}
+# print(x&y)
+# 3. differnce()
+x={10,20,30}
+y={30,40,50,60}
+print(x-y)
+# 4.symmetric difference ()
