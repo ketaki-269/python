@@ -40,6 +40,15 @@
 # print(s1)
 
 # 4.pop()
+# s={10,20,30}
+# print(s.pop())
+# print(s)
+
+#5. romove
+# s={10,20,30}
+# print(s.remove(30))
+# print(s)
+
+#6. clear
 s={10,20,30}
-print(s.pop())
-print(s)
+print(s.clear())
