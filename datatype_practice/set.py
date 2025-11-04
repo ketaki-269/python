@@ -31,10 +31,15 @@
 # s.update(50,60,70)
 # print(s)
 
+# s={10,20,30}
+# s.update(s,range(5))
+# print(s)
+# # 3.copy()
+# s={10,20,30}
+# s1=s.copy()
+# print(s1)
+
+# 4.pop()
 s={10,20,30}
-s.update(s,range(5))
+print(s.pop())
 print(s)
-# 3.copy()
-s={10,20,30}
-s1=s.copy()
-print(s1)
