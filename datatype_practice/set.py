@@ -19,3 +19,20 @@
 # s=set()
 # print(s)
 # print(type(s))
+
+# functions 
+# 1. add()
+# s={10,20,30,40}
+# s.add(40)
+# print(s)
+
+# 2. update()
+# s={10,20,30,40}
+# s.update(50,60,70)
+# print(s)
+
+s={10,20,30}
+l=[40,50,60,10]
+s.update(l,range(5))
+print(s)
+# 3.copy()
