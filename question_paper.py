@@ -44,6 +44,8 @@ print(ans)
 # 1 2 3
 # 1 2 3 4
 # 1 2 3 4 5
+
+
 # Q.3(a) Write a Python program to get the smallest number from a list.
 # Example:
 # Input:[4,1,5,6,8]
@@ -58,9 +60,9 @@ print(ans)
 # Output:6
 
 # with fucntion 
-data=(90,32,45,6,1)
-data= sorted(data)
-print(data[1])
+# data=(90,32,45,6,1)
+# data= sorted(data)
+# print(data[1])
 
 #with out function
 # data=(90,32,45,6,1)
@@ -95,11 +97,104 @@ print(data[1])
 # Example:
 # Input:34256
 # Output:9
+
+# s="34256"
+# ans=int( s[-1]) +int(s[0])
+# print(ans)
 # Note:(Number should be greater than 2 digits)
 # Q.5(a) Write a Python script to concatenate the following dictionaries to
 # create a new one.
-
+# to extend dictionary we use update
+# d1={1:20,2:30}
+# d2={2:30,4:40}
+# d3={5:50,6:60}
+# ans={}
+# for i in (d1,d2,d3):
+#     ans.update(i)
+# print(ans)    
 # Or
 
 # Q.5(b)Write a python program to create class using factorial and power
 # function.
+
+# class ke under 2 fucntion bananne hai factorial or power 
+# or dono ko call kern a hai 
+
+
+
+
+# patterns
+# *
+# **
+# ***
+# ****
+# *****
+# ispe pehle star honga fir space but in vice versa its oppposite
+# star or spaces ka combination is pattern hai 
+
+# with single loop 
+# print("*"*1+"1"*4)
+
+# *
+# **
+# ***
+# ****
+# *****
+# n=5
+# for i in range (1,n+1):
+#     print("*"*i +" "*(n-i))
+
+#  ****
+#   ***
+#    **
+#     *
+n=5
+for i in range (1,n+1):
+    print(" "*i +"*"*(n-i))
+
+
+# *****
+# ****
+# ***
+# **
+# *
+
+# n=5
+# for i in range (n):
+#     print("*"*(n-i) + " "*i)
+
+#    *
+#   **
+#  ***
+# ****
+#*****
+# n=5
+# for i in range (n):
+#     print(" "*(n-i) + "*"*i)
+
+#     *
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
+# n=5
+# for i in range(1,n+1):
+#     print(" "*(n-i)+"* "*i)
+
+#1
+#12
+#123
+#1234
+#12345
+# n=5
+# st=""
+# for i in range(1,n+1):
+#     st+=str(i)
+#     print(st*i+ " "*(n-1)) #galkat
+
+
+# char to int ord
+int to char 
+s="128"
+for i in range (128):
+    print(f"the ASCII value of {i} {} ")
