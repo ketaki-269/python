@@ -151,14 +151,23 @@
 # print(result)
 # 6. Unique values from list of tuples
 # [(1,2),(2,3),(3,4)] → {1,2,3,4}
-li=[(1,2),(2,3),(3,4)]
-s = set()
-for tup in li:
-    for x in tup:
-       s.add(x)
-print(s)
+# li=[(1,2),(2,3),(3,4)]
+# s = set()
+# for tup in li:
+#     for x in tup:
+#        s.add(x)
+# print(s)
 
 # 7. Uncommon elements between lists
 # L1=[1,2,3], L2=[2,3,4] → {1,4}
+# L1=[1,2,3]
+# L2=[2,3,4]
+# s=set(L1)^set(L2)
+# print(s)
+
 # 8. Elements in all three lists
 # [1,2,3], [2,3,4], [3,4,5] → {3}
+l1=[1,2,3] 
+l2= [2,3,4]
+l3=[3,4,5]
+print(set(l1) & set(l2) & set(l3))
