@@ -167,7 +167,53 @@
 
 # 8. Elements in all three lists
 # [1,2,3], [2,3,4], [3,4,5] → {3}
-l1=[1,2,3] 
-l2= [2,3,4]
-l3=[3,4,5]
-print(set(l1) & set(l2) & set(l3))
+# l1=[1,2,3] 
+# l2= [2,3,4]
+# l3=[3,4,5]
+# print(set(l1) & set(l2) & set(l3))
+
+
+#dictionary 
+
+# 1. Create dictionary of students
+# {"Aman":85, "Ravi":92, "Neha":78}
+# d={}
+# d[1]="A"
+# d[2]="B"
+# d[3]="C"
+# d[4]="D"
+# print(d)
+
+# d={"Aman":85, "Ravi":92, "Neha":78}
+# print(d)
+
+# 2. Access value by key
+# marks["Ravi"] → 92
+# d={"Aman":85, "Ravi":92, "Neha":78}
+# print(d["Ravi"])
+# 3. Add/Update value
+# marks["Neha"]=80
+# d={"Aman":85, "Ravi":92, "Neha":78}
+# d["Neha"]=80
+# print(d)
+
+# 4. Delete a key
+# del marks["Aman"]
+# d={"Aman":85, "Ravi":92, "Neha":78}
+# del d["Aman"]
+# print(d)
+# 5. Check if key exists
+# "Ravi" in marks → True
+# d={"Aman":85, "Ravi":92, "Neha":78}
+# print("Ravi" in d)
+# 6. Lists to dictionary
+# keys=["a","b"], vals=[1,2] → {"a":1,"b":2}
+keys=["a","b"]
+value=[1,2]
+d=dict(zip(keys,value))
+print(d)
+# 7. Invert dictionary
+# {"a":1,"b":2} → {1:"a",2:"b"}
+d = {"a": 1, "b": 2}
+inverted = {value: key for key, value in d.items()}
+print(inverted)
