@@ -14,29 +14,29 @@
 #05-11-2025
 #array
 #array()  this function is use to create array
-import numpy as np
-a=[1,23,3,4]
-print(type(a))
+# import numpy as np
+# a=[1,23,3,4]
+# print(type(a))
 
-arr1 = np.array([1,2,3,4])
-print(type(arr1))
+# arr1 = np.array([1,2,3,4])
+# print(type(arr1))
 
 #
-import time
-size=10000000
-list1=range(size)
-list2=range(size)
-start = time.time()  # program ke run hon evale time ko store kerlenga 
-result = [x+y for x,y in zip(list1,list2) ]
-end=time.time()        # program ke end hone ka time 
-print("the time of list program :", end - start)
+# import time
+# size=10000000
+# list1=range(size)
+# list2=range(size)
+# start = time.time()  # program ke run hon evale time ko store kerlenga 
+# result = [x+y for x,y in zip(list1,list2) ]
+# end=time.time()        # program ke end hone ka time 
+# print("the time of list program :", end - start)
 
-array1 = np.arange(size)
-array2 = np.arange(size)
-start= time.time()
-result = array1+array2
-end= time.time()
-print("the time of array program :", end - start)
+# array1 = np.arange(size)
+# array2 = np.arange(size)
+# start= time.time()
+# result = array1+array2
+# end= time.time()
+# print("the time of array program :", end - start)
 
 # library-->package -->module 
 # module is like single page  
@@ -54,5 +54,8 @@ print("the time of array program :", end - start)
 # .read_csv()- it is a pandas function , () iske unther file/ or data ka path or path ke is \ symbol ko / convert kerna hai
 # file ka name or fir csv extention
 
-import pandas as pd 
-pd.read_csv("C:/Users/DELL/Desktop/powerbi/gym.csv")
+# import pandas as pd 
+# pd.read_csv("C:/Users/DELL/Desktop/powerbi/gym.csv")
+
+#06-11-2025
+# 1
