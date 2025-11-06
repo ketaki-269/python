@@ -1,0 +1,5 @@
+T=(5,2,9,1)
+# print(sorted(T))
+# S=sorted(T)
+# S.reverse()
+# print(S)
