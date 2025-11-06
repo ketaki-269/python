@@ -31,7 +31,6 @@ result = [x+y for x,y in zip(list1,list2) ]
 end=time.time()        # program ke end hone ka time 
 print("the time of list program :", end - start)
 
-
 array1 = np.arange(size)
 array2 = np.arange(size)
 start= time.time()
@@ -48,3 +47,12 @@ print("the time of array program :", end - start)
 # np - library 
 # random- package 
 # randint - modulw 
+
+
+
+#pandas
+# .read_csv()- it is a pandas function , () iske unther file/ or data ka path or path ke is \ symbol ko / convert kerna hai
+# file ka name or fir csv extention
+
+import pandas as pd 
+pd.read_csv("C:/Users/DELL/Desktop/powerbi/gym.csv")
