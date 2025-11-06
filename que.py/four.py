@@ -194,9 +194,7 @@
 # 6. Replace substring
 # "I like apple".replace("apple","mango") → "I like mango"
 # text = "I like apple"
-
 # result = text.replace("apple", "mango")
-
 # print(result)
 
 
