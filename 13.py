@@ -12,25 +12,25 @@
 #        pass
 
 # que  1- 
-# website = input("Enter a website name: ").lower()
+website = input("Enter a website name: ").lower()
 
-# if website =="amazon":
-#     website = input("Enter product or service: ").lower()
-#     if website =="product":
-#         website=input("Enter shoes or clothes: ").lower()
+if website =="amazon":
+    website = input("Enter product or service: ").lower()
+    if website =="product":
+        website=input("Enter shoes or clothes: ").lower()
 
-#         if website =="shoes":
-#             print("1000")
-#         elif website =="clothes":
-#             print("2000")
-#         else:
-#             print("Invalid")
-#     elif website =="service":
-#         print("Not Available")
-#     else:
-#         print("Invalid")  
-# else:
-#     print("Invalid")
+        if website =="shoes":
+            print("1000")
+        elif website =="clothes":
+            print("2000")
+        else:
+            print("Invalid")
+    elif website =="service":
+        print("Not Available")
+    else:
+        print("Invalid")  
+else:
+    print("Invalid")
 
 
 
