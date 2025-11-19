@@ -80,37 +80,37 @@ else:
 
 
 
-# que -3
-# stream = input("Enter Stream (Science/Commerce/Arts): ").lower()
-# marks = int(input("Enter Marks: "))
-# entrance = int(input("Enter Entrance Exam Score: "))
+que -3
+stream = input("Enter Stream (Science/Commerce/Arts): ").lower()
+marks = int(input("Enter Marks: "))
+entrance = int(input("Enter Entrance Exam Score: "))
 
-# if stream == "science":
-#     if marks >= 70:
-#         if entrance >= 60:
-#             print("Eligible for B.Sc")
-#         else:
-#             print("Eligible for Diploma")
-#     else:
-#         print("Not Eligible for Science")
+if stream == "science":
+    if marks >= 70:
+        if entrance >= 60:
+            print("Eligible for B.Sc")
+        else:
+            print("Eligible for Diploma")
+    else:
+        print("Not Eligible for Science")
 
-# elif stream == "commerce":
-#     if marks >= 65:
-#         if entrance >= 55:
-#             print("Eligible for B.Com")
-#         else:
-#             print("Eligible for Diploma in Accounts")
-#     else:
-#         print("Not Eligible for Commerce")
+elif stream == "commerce":
+    if marks >= 65:
+        if entrance >= 55:
+            print("Eligible for B.Com")
+        else:
+            print("Eligible for Diploma in Accounts")
+    else:
+        print("Not Eligible for Commerce")
 
-# elif stream == "arts":
-#     if marks >= 60:
-#         if entrance >= 50:
-#             print("Eligible for B.A")
-#         else:
-#             print("Shortlisted for Interview")
-#     else:
-#         print("Not Eligible for Arts")
+elif stream == "arts":
+    if marks >= 60:
+        if entrance >= 50:
+            print("Eligible for B.A")
+        else:
+            print("Shortlisted for Interview")
+    else:
+        print("Not Eligible for Arts")
 
-# else:
-#     print("Invalid Stream")
+else:
+    print("Invalid Stream")
