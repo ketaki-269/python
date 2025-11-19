@@ -75,7 +75,7 @@ elif b>a and b>c :
 elif c>a and c>b :
     print(b ) 
 else:
-    (" This is Invalid")    
+    (" This is not valid")    
 
 # 4 days inn week ?
 #      1-MONDAY
