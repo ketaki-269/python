@@ -64,18 +64,18 @@
 
 
 # Code
-a = int(input("Enter an number1:"))
-b= int(input("Enter an number2:"))
-c = int(input("Enter an number3:"))
+# a = int(input("Enter an number1:"))
+# b= int(input("Enter an number2:"))
+# c = int(input("Enter an number3:"))
 
-if a>b and a>c :
-    print(a )
-elif b>a and b>c :
-    print(b ) 
-elif c>a and c>b :
-    print(b ) 
-else:
-    (" This is not valid")    
+# if a>b and a>c :
+#     print(a )
+# elif b>a and b>c :
+#     print(b ) 
+# elif c>a and c>b :
+#     print(b ) 
+# else:
+#     (" This is not valid")    
 
 # 4 days inn week ?
 #      1-MONDAY
