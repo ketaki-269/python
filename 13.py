@@ -80,7 +80,7 @@ else:
 
 
 
-que -3
+# que -3
 stream = input("Enter Stream (Science/Commerce/Arts): ").lower()
 marks = int(input("Enter Marks: "))
 entrance = int(input("Enter Entrance Exam Score: "))
