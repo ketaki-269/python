@@ -227,3 +227,4 @@ for ch in text:
 print("Alphabets:", alphabets)
 print("Digits:", digits)
 print("Special characters:", special)
+
