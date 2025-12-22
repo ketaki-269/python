@@ -3,7 +3,7 @@
 # 3. reduce  - returns single data
 # commun in 3 ( function, iterable - object)
 
--
+
 # 1. map
 #add 10 to each i a list
 # [1,2,3],o/p[11,12,13]
