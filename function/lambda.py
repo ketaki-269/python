@@ -1,4 +1,4 @@
-# lambda fucntion is also known as anonymsa function  or single lin function 
+# lambda fucntion is also known as anonymsa function  or single line function 
 # is it use with map filter and reduce
 # syntax- lambda argument :code/logic
 # def add (a,b):
