@@ -232,47 +232,47 @@
 # ans= print1to10()
 # print(ans)
 
-# types of argument 
-# 1.positional argument - 
-# 2. keyword argument
-# 3.defoult argument
-# 4.valriable length argument
-# 5.keyword variable length argument
+types of argument 
+1.positional argument - 
+2. keyword argument
+3.defoult argument
+4.valriable length argument
+5.keyword variable length argument
 
-# 1.positional argument - sunction jitne argument mang raha hai use utne hi chahiye hote hai 
-# def student_data(num,rolno):
-#     print(f"hello(name)your rollno is (rollno)")
-# student_data("raj",1023)
-# 2.keyword argument -  like ispe specify kerdengi key deke jise name name me hi jake store ho bhale line of  code me kahi bhi diya ho 
-# def student_data(num,rollno):
-#     print(f"hello(name)your rollno is (rollno)")
-# student_data(rollno=1023,name="raj")
-# 3.defoult argument -   single fucntion me jab multiple task perfrom kerne ho toh iska jada use hota hai 
-# def addtion (a,b):
-#     print(a+b)
-# addtion(10,50)    
-# like if in this ager kisi ne ek hi argument diya kisine toh vo wrroe na deke second value defuat lele 
-# jese ese 
-# def addtion (a=0,b=0):
-#     if b==0:
-#         print(a)
-#     elif a==0 and b==0:
-#         print("both are zero")
-#     elif a!=0 and b!=0:
-#        print(a+b)    
-#     else:     
-#      print(a+b)
-# addtion()
+1.positional argument - sunction jitne argument mang raha hai use utne hi chahiye hote hai 
+def student_data(num,rolno):
+    print(f"hello(name)your rollno is (rollno)")
+student_data("raj",1023)
+2.keyword argument -  like ispe specify kerdengi key deke jise name name me hi jake store ho bhale line of  code me kahi bhi diya ho 
+def student_data(num,rollno):
+    print(f"hello(name)your rollno is (rollno)")
+student_data(rollno=1023,name="raj")
+3.defoult argument -   single fucntion me jab multiple task perfrom kerne ho toh iska jada use hota hai 
+def addtion (a,b):
+    print(a+b)
+addtion(10,50)    
+like if in this ager kisi ne ek hi argument diya kisine toh vo wrroe na deke second value defuat lele 
+jese ese 
+def addtion (a=0,b=0):
+    if b==0:
+        print(a)
+    elif a==0 and b==0:
+        print("both are zero")
+    elif a!=0 and b!=0:
+       print(a+b)    
+    else:     
+     print(a+b)
+addtion()
 
-#fucntion overloading defualt funtion ke trough hi archive hoti hai python me kyuki  vese fucntion overloading pyhton me nhi hoti 
-# 4.valriable length argument-  * is use  or ye list me nhi ayegna
-# def sumofallnumber(*num):
-#    ans=0
-#    for i in num:
-#       ans+=i
-#    return ans
-# sumofallnumber(1,2,3,4,6,34,6,6)
-# 5.keyword variable length argument - ** is use ,it use to store data in key and value pattern 
+fucntion overloading defualt funtion ke trough hi archive hoti hai python me kyuki  vese fucntion overloading pyhton me nhi hoti 
+4.valriable length argument-  * is use  or ye list me nhi ayegna
+def sumofallnumber(*num):
+   ans=0
+   for i in num:
+      ans+=i
+   return ans
+sumofallnumber(1,2,3,4,6,34,6,6)
+5.keyword variable length argument - ** is use ,it use to store data in key and value pattern 
 def printdata(**data):
     for i,j in data.items():
         print(f"hello {i} rollno {j}")
