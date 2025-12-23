@@ -35,6 +35,7 @@
 # Input: 5 → Output: 25
 # ans=lambda num:  num*num
 # print(ans(5))
+
 # 3 Write a lambda function to find the maximum of two numbers.
 # ans=lambda x,y:x if x>y else y
 # print(ans(8,70))  
@@ -59,6 +60,11 @@
 # x="level"
 # ans=lambda x :x==x[::-1]
 # print(ans(x))
+
+
+# y="121"
+# ans=lambda y :y==y[::-1]
+# print(ans(y))
 # #8 Write a lambda function to find the cube of a number.
 # # Input: 3 → Output: 27
 # ans=lambda num:  num**3
@@ -73,7 +79,13 @@
 # max(li,key=lambda x:x)
 # 10 Write a lambda function to sort a list of tuples based on the second element.
 # Input: [(2,5), (1,2), (4,1)] → Output: [(4,1), (1,2), (2,5)]
-li=[(2,5), (1,2), (4,1)]
-li=sorted(li,key=lambda x:x[1])
-print(li)
+# li=[(2,5), (1,2), (4,1)]
+# li=sorted(li,key=lambda x:x[1])
+# print(li)
+
+# Fcatorial of number 
+
+num=int (input("Enter number: "))
+fact = lambda n: 1 if n == 0 else n * fact(n-1)
+print(fact(num))
 
