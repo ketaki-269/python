@@ -85,7 +85,41 @@
 
 # Fcatorial of number 
 
-num=int (input("Enter number: "))
-fact = lambda n: 1 if n == 0 else n * fact(n-1)
-print(fact(num))
+# num=int (input("Enter number: "))
+# fact = lambda n: 1 if n == 0 else n * fact(n-1)
+# print(fact(num))
 
+
+#armstrong
+
+# s= (input("Enter Number: "))
+# armstrong = lambda s: int(s) == sum(int(i)**len(s) for i in s)
+# print(armstrong(s))
+
+
+# is_armstrong = lambda s: int(s) == sum(int(i)**len(s) for i in s)
+# num = input("Enter a number: ")
+# print(is_armstrong(num))
+
+
+
+# 4 Write a lambda function to check if a number is prime  or not.
+# num=(input("Enter Number :"))
+# prime = lambda n: n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))
+# print(prime(num))
+
+
+
+# with if else 
+n = int(input("Enter number: "))
+
+if n > 1:
+    for i in range(2, n):
+        if n % i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
+else:
+    print("Not Prime")
+ 
