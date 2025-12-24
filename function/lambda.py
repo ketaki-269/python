@@ -104,9 +104,9 @@
 
 
 # 4 Write a lambda function to check if a number is prime  or not.
-# num=(input("Enter Number :"))
-# prime = lambda n: n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))
-# print(prime(num))
+num=(input("Enter Number :"))
+prime = lambda n: n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))
+print(prime(num))
 
 
 
