@@ -92,9 +92,9 @@
 
 #armstrong
 
-# s= (input("Enter Number: "))
-# armstrong = lambda s: int(s) == sum(int(i)**len(s) for i in s)
-# print(armstrong(s))
+s= (input("Enter Number: "))
+armstrong = lambda s: int(s) == sum(int(i)**len(s) for i in s)
+print(armstrong(s))
 
 
 is_armstrong = lambda s: int(s) == sum(int(i)**len(s) for i in s)
