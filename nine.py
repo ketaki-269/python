@@ -83,7 +83,7 @@
 
 # #16. check character constant or vowel 
 value =input("Enter character: ")
-ans="Vowel " if value=="a"or value=="e"or value=="i"or value=="o"or value=="u" or value=="A" or value=="E"or value=="I"or value=="O"or value=="U" else "Constant"
+ans="Vowel " if value=="a"or value=="e"or value=="i"or value=="o"or value=="u"or value=="A" or value=="E"or value=="I"or value=="O"or value=="U" else "Constant"
 print(ans)
 # or 
 
