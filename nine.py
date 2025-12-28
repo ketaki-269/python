@@ -82,12 +82,12 @@
 # # print (ans)
 
 # #16. check character constant or vowel 
-# # value =input("Enter character: ")
-# # ans="Vowel " if value=="a"or value=="e"or value=="i"or value=="o"or value=="u" or value=="A" or value=="E"or value=="I"or value=="O"or value=="U" else "Constant"
-# # print(ans)
-# # or 
-
 value =input("Enter character: ")
-# chr = "aeiou"
-ans="vowel" if value in ( "a", "e" ,"i", "o" ,"u" ) else "Constant"
+ans="Vowel " if value=="a"or value=="e"or value=="i"or value=="o"or value=="u" or value=="A" or value=="E"or value=="I"or value=="O"or value=="U" else "Constant"
 print(ans)
+# or 
+
+# value =input("Enter character: ")
+# # chr = "aeiou"
+# ans="vowel" if value in ( "a", "e" ,"i", "o" ,"u" ) else "Constant"
+# print(ans)
