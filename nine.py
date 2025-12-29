@@ -41,9 +41,9 @@
 # # print (ans)
 
 # #8. check the person is eligible for vote or note 
-# # age=int(input("Enter age :"))
-# # ans = "Eligible" if age>18 else "Not Eligible"
-# # print (ans)
+# age=int(input("Enter age :"))
+# ans = "Eligible" if age>18 else "Not Eligible"
+# print (ans)
 
 # #9. check the number is divisible by 7 or not
 # # num=int(input("Enter number :"))
