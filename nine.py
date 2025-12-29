@@ -26,9 +26,9 @@
 # print (ans)
 
 # #5. check the password is correct or not password is 1234
-# password=int(input("Enter Password:"))
-# ans = "Correct " if password==1234 else "NOt correct "
-# print (ans)
+password=int(input("Enter Password:"))
+ans = "Correct " if password==1234 else "NOt correct "
+print (ans)
 
 # #6. check the number is even or odd
 # # a=int(input("Enter number :"))
