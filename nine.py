@@ -2,16 +2,16 @@
 # syntax -  ontrue if condition else onfalse
 
 # 1.greatest between two
-# a=12
-# b=16
-# ans=a if a>b else b
-# print(ans)
-
-# 2.greatest between two
-a = int(input("Enter an number1:"))
-b= int(input("Enter an number1:"))
+a=12
+b=16
 ans=a if a>b else b
 print(ans)
+
+# 2.greatest between two
+# a = int(input("Enter an number1:"))
+# b= int(input("Enter an number1:"))
+# ans=a if a>b else b
+# print(ans)
 
 
 # # 3.smallest between two number
