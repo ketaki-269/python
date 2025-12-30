@@ -20,8 +20,8 @@
 # ans=a if a<b else b
 # print(ans)
 
-# # 4.check the number is above 50 or not 
-a=int(input("Enter number:"))
+# 4.check the number is above 50 or not 
+a = int(input("Enter number:"))
 ans = "above" if a>50 else "NOt"
 print (ans)
 
