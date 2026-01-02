@@ -31,9 +31,9 @@ ans = "Correct " if password==1234 else "NOt correct "
 print (ans)
 
 # #6. check the number is even or odd
-# a=int(input("Enter number :"))
-# ans = "EVEN "if a%2==0 else "ODD"
-# print (ans)
+a=int(input("Enter number :"))
+ans = "EVEN "if a%2==0 else "ODD"
+print (ans)
 
 # #7. check the number is divisible by 5 or not 
 # # num=int(input("Enter number :"))
