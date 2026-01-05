@@ -1,3 +1,4 @@
-year=int(input ("Enter year: "))
-result="Leap year" if year%4==0 else"Not a leap year"
-print(result)
+# value =input("Enter character: ")
+# value = "aeiou"
+# ans="vowel" if value in ( "a", "e" ,"i", "o" ,"u" ) else "Constant"
+# print(ans)
