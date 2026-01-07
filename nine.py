@@ -60,9 +60,9 @@ print(ans)
 # # ans = "positive" if num>0 else "Negative"
 # # print (ans)
 #12. check the no. is between 0-50
-num=int(input("Enter number:"))
-ans = "Between" if num<50 and num>0 else "NOt Between"
-print (ans)
+# num=int(input("Enter number:"))
+# ans = "Between" if num<50 and num>0 else "NOt Between"
+# print (ans)
 
 # #13. check the number is multiple of 3 or not 
 # # num=int(input("Enter a number: "))
@@ -76,9 +76,9 @@ print (ans)
 # # print (ans)
 
 # #15. check number is divisible by 2 and 4
-# # num=int(input("Enter number :"))
-# # ans = "Divisible "if num%2==0 and num%4==0  else "Not divisible"
-# # print (ans)
+num=int(input("Enter number :"))
+ans = "Divisible "if num%2==0 and num%4==0  else "Not divisible"
+print (ans)
 
 # #16. check character constant or vowel 
 # value =input("Enter character: ")
