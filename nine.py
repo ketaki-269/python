@@ -70,10 +70,10 @@ print(ans)
 # print(result)
 
 # #14. check username=user@gmail.com password=1234 
-username=input("Enter username: ")
-password=int(input("Enter Password:"))
-ans = "Successful " if password==1234 and username =="user@gmail.com"  else "NOt "
-print (ans)
+# username=input("Enter username: ")
+# password=int(input("Enter Password:"))
+# ans = "Successful " if password==1234 and username =="user@gmail.com"  else "NOt"
+# print (ans)
 
 # #15. check number is divisible by 2 and 4
 # num=int(input("Enter number :"))
