@@ -60,20 +60,20 @@ print(ans)
 # # ans = "positive" if num>0 else "Negative"
 # # print (ans)
 #12. check the no. is between 0-50
-# num=int(input("Enter number:"))
-# ans = "Between" if num<50 and num>0 else "NOt Between"
-# print (ans)
+num=int(input("Enter number:"))
+ans = "Between" if num<50 and num>0 else "NOt Between"
+print (ans)
 
 # #13. check the number is multiple of 3 or not 
-num=int(input("Enter a number: "))
-result="Multiple" if num%3==0 else"Not Multiple"
-print(result)
+# num=int(input("Enter a number: "))
+# result="Multiple" if num%3==0 else"Not Multiple"
+# print(result)
 
 # #14. check username=user@gmail.com password=1234 
-username=input("Enter username: ")
-password=int(input("Enter Password:"))
-ans = "Successful " if password==1234 and username =="user@gmail.com"  else "NOt"
-print (ans)
+# username=input("Enter username: ")
+# password=int(input("Enter Password:"))
+# ans = "Successful " if password==1234 and username =="user@gmail.com"  else "NOt"
+# print (ans)
 
 # #15. check number is divisible by 2 and 4
 # num=int(input("Enter number :"))
