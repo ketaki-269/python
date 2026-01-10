@@ -3,8 +3,8 @@
 
 # 1.greatest between two
 a=12
-b=16
-ans=a if a>b else b
+c=16
+ans=a if a>c else c
 print(ans)
 
 # 2.greatest between two
@@ -76,9 +76,9 @@ print(ans)
 # print (ans)
 
 # #15. check number is divisible by 2 and 4
-num=int(input("Enter number :"))
-ans = "Divisible "if num%2==0 and num%4==0  else "Not divisible"
-print (ans)
+# num=int(input("Enter number :"))
+# ans = "Divisible "if num%2==0 and num%4==0  else "Not divisible"
+# print (ans)
 
 # #16. check character constant or vowel 
 # value =input("Enter character: ")
