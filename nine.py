@@ -8,10 +8,10 @@ ans=a if a>c else c
 print(ans)
 
 # 2.greatest between two
-# a = int(input("Enter an number1:"))
-# b= int(input("Enter an number1:"))
-# ans=a if a>b else b
-# print(ans)
+c = int(input("Enter an number1:"))
+b= int(input("Enter an number1:"))
+ans=c if c>b else b
+print(ans)
 
 
 # # 3.smallest between two number
