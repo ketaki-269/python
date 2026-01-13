@@ -9,8 +9,8 @@ print(ans)
 
 # 2.greatest between two
 a = int(input("Enter an number1:"))
-b= int(input("Enter an number1:"))
-ans=a if a>b else b
+c = int(input("Enter an number1:"))
+ans=a if a>c else c
 print(ans)
 
 
