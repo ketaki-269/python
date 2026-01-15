@@ -2,23 +2,23 @@
 # syntax -  ontrue if condition else onfalse
 
 # 1.greatest between two
-a=12
-c=16
-ans=a if a>c else c
-print(ans)
+# a=12
+# c=16
+# ans=a if a>c else c
+# print(ans)
 
 # 2.greatest between two
-a = int(input("Enter an number1:"))
-b = int(input("Enter an number2:"))
-ans=a if a>b else b
-print(ans)
+# a = int(input("Enter an number1:"))
+# b = int(input("Enter an number2:"))
+# ans=a if a>b else b
+# print(ans)
 
 
 # # 3.smallest between two number
-# a = int(input("Enter an number1:"))
-# b= int(input("Enter an number1:"))
-# ans=a if a<b else b
-# print(ans)
+a = int(input("Enter an number1:"))
+d= int(input("Enter an number1:"))
+ans=a if a<d else d
+print(ans)
 
 # 4.check the number is above 50 or not 
 # a = int(input("Enter number:"))
