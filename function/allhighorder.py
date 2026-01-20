@@ -1,9 +1,9 @@
 #1 Sum of squares of even numbers using map, filter, reduce
 # Problem: nums = [1,2,3,4] → 2^2 + 4^2 = 4 + 16 = 20.
-from functools import reduce
-list=[1,2,3,4]
-ans= reduce(lambda x,y:x+y,map(lambda x:x*x,filter (lambda x:x%2==0,list)))
-print(ans)
+# from functools import reduce
+# list=[1,2,3,4]
+# ans= reduce(lambda x,y:x+y,map(lambda x:x*x,filter (lambda x:x%2==0,list)))
+# print(ans)
 
 # filter use to filter even num
 # map lambda use to sum of square
@@ -17,9 +17,9 @@ print(ans)
 
 #3 Add 10 to each number using map()
 # Problem: nums = [5, 10, 15] → [15, 20, 25]
-# nums = [5, 10, 15]
-# ans = list(map(lambda x: x + 10, nums))
-# print(ans)
+num = [5, 10, 15]
+ans = list(map(lambda x: x + 10, num))
+print(ans)
 
 #4 Filter out even numbers using filter()
 # Problem: nums = [1,2,3,4,5] → [1,3,5]
