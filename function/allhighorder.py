@@ -22,10 +22,10 @@
 # print(ans)
 
 #4 Filter out even numbers using filter()
-# Problem: nums = [1,2,3,4,5] → [1,3,5]
-num = [1, 2, 3, 4, 5]
-ans = list(filter(lambda x: x % 2 != 0, num))
-print(ans)
+# # Problem: nums = [1,2,3,4,5] → [1,3,5]
+# num = [1, 2, 3, 4, 5]
+# ans = list(filter(lambda x: x % 2 != 0, num))
+# print(ans)
 
 #5 Filter strings starting with 'A'
 # Problem: names = ['Alice', 'Bob', 'Alex'] → ['Alice', 'Alex']
@@ -55,9 +55,9 @@ print(ans)
 
 #9 Convert integers to strings using map()
 # Problem: nums = [1,2,3] → ['1','2','3']
-# nums = [1, 2, 3]
-# ans = list(map(lambda x: str(x), nums))
-# print(ans)
+num = [1, 2, 3]
+ans = list(map(lambda x: str(x), num))
+print(ans)
 
 #10 Find maximum using reduce()
 # Problem: nums = [3,7,1,9,4] → 9
