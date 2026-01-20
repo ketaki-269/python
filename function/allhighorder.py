@@ -17,15 +17,15 @@
 
 #3 Add 10 to each number using map()
 # Problem: nums = [5, 10, 15] → [15, 20, 25]
-num = [5, 10, 15]
-ans = list(map(lambda x: x + 10, num))
-print(ans)
+# num = [5, 10, 15]
+# ans = list(map(lambda x: x + 10, num))
+# print(ans)
 
 #4 Filter out even numbers using filter()
 # Problem: nums = [1,2,3,4,5] → [1,3,5]
-# nums = [1, 2, 3, 4, 5]
-# ans = list(filter(lambda x: x % 2 != 0, nums))
-# print(ans)
+num = [1, 2, 3, 4, 5]
+ans = list(filter(lambda x: x % 2 != 0, num))
+print(ans)
 
 #5 Filter strings starting with 'A'
 # Problem: names = ['Alice', 'Bob', 'Alex'] → ['Alice', 'Alex']
