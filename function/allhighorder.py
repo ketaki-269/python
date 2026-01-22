@@ -54,25 +54,25 @@
 # print(ans)
 
 #9 Convert integers to strings using map()
-# Problem: nums = [1,2,3] → ['1','2','3']
-num = [1, 2, 3]
-ans = list(map(lambda x: str(x), num))
-print(ans)
+# # Problem: nums = [1,2,3] → ['1','2','3']
+# num = [1, 2, 3]
+# ans = list(map(lambda x: str(x), num))
+# print(ans)
 
 #10 Find maximum using reduce()
 # Problem: nums = [3,7,1,9,4] → 9
 # from functools import reduce
-# nums = [3, 7, 1, 9, 4]
-# ans = reduce(lambda x, y: x if x > y else y, nums)
+# num = [3, 7, 1, 9, 4]
+# ans = reduce(lambda x, y: x if x > y else y, num)
 # print(ans)
 
 #average
 
 #1 Squares only of even numbers using map()
 # Problem: nums = [1,2,3,4,5] → [4, 16]
-# nums = [1, 2, 3, 4, 5]
-# ans = list(map(lambda x: x * x, filter(lambda x: x % 2 == 0, nums)))
-# print(ans)
+num = [1, 2, 3, 4, 5]
+ans = list(map(lambda x: x * x, filter(lambda x: x % 2 == 0, num)))
+print(ans)
 
 #2 Filter palindromes using filter()
 # Problem: words = ['level', 'test', 'radar', 'hello'] → ['level','radar']
