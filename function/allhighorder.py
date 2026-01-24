@@ -76,22 +76,22 @@
 
 #2 Filter palindromes using filter()
 # Problem: words = ['level', 'test', 'radar', 'hello'] → ['level','radar']
-word = ['level', 'test', 'radar', 'hello']
-ans = list(filter(lambda x: x == x[::-1], word))
-print(ans)
+# word = ['level', 'test', 'radar', 'hello']
+# ans = list(filter(lambda x: x == x[::-1], word))
+# print(ans)
 
 #3 Concatenate strings using reduce()
 # Problem: parts = ['I', 'love', 'Python'] → 'I love Python'
 # from functools import reduce
-# parts = ['I', 'love', 'Python']
-# ans = reduce(lambda x, y: x + ' ' + y, parts)
+# part = ['I', 'love', 'Python']
+# ans = reduce(lambda x, y: x + ' ' + y, part)
 # print(ans)
 
 #4 Convert Celsius to Fahrenheit using map()
 # Problem: c = [0, 20, 37] → [32.0, 68.0, 98.6]
-# c = [0, 20, 37]
-# ans = list(map(lambda x: round((x * 9/5) + 32, 1), c))
-# print(ans)
+a = [0, 20, 37]
+ans = list(map(lambda x: round((x * 9/5) + 32, 1), a))
+print(ans)
 
 #5 Remove None or empty strings using filter()
 # Problem: items = ['a', '', None, 'b'] → ['a','b']
