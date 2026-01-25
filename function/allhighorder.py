@@ -89,9 +89,9 @@
 
 #4 Convert Celsius to Fahrenheit using map()
 # Problem: c = [0, 20, 37] → [32.0, 68.0, 98.6]
-a = [0, 20, 37]
-ans = list(map(lambda x: round((x * 9/5) + 32, 1), a))
-print(ans)
+# a = [0, 20, 37]
+# ans = list(map(lambda x: round((x * 9/5) + 32, 1), a))
+# print(ans)
 
 #5 Remove None or empty strings using filter()
 # Problem: items = ['a', '', None, 'b'] → ['a','b']
@@ -108,9 +108,9 @@ print(ans)
 
 #7 Filter people aged 18+ from list of tuples
 # Problem: people = [('A',17),('B',20)] → [('B',20)]
-# people = [('A',17), ('B',20)]
-# ans = list(filter(lambda x: x[1] >= 18, people))
-# print(ans)
+peoples = [('A',17), ('B',20)]
+ans = list(filter(lambda x: x[1] >= 18, peoples))
+print(ans)
 
 #8 Extract first names using map()
 # Problem: full = ['Mahesh Soni', 'John Doe'] → ['Mahesh', 'John']
