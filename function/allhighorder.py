@@ -108,9 +108,9 @@
 
 #7 Filter people aged 18+ from list of tuples
 # Problem: people = [('A',17),('B',20)] → [('B',20)]
-peoples = [('A',17), ('B',20)]
-ans = list(filter(lambda x: x[1] >= 18, peoples))
-print(ans)
+# peoples = [('A',17), ('B',20)]
+# ans = list(filter(lambda x: x[1] >= 18, peoples))
+# print(ans)
 
 #8 Extract first names using map()
 # Problem: full = ['Mahesh Soni', 'John Doe'] → ['Mahesh', 'John']
@@ -154,9 +154,9 @@ print(ans)
 
 #3 Uppercase words longer than 3 letters using map + filter
 # Problem: words = ['a','hello','sun','moon'] → ['HELLO','MOON']
-# words = ['a', 'hello', 'sun', 'moon']
-# ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, words)))
-# print(ans)
+word = ['a', 'hello', 'sun', 'moon']
+ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, word)))
+print(ans)
 
 #4 Count total characters across strings using map() + reduce()
 # Problem: ['hi','there'] → 7 (2 + 5)
