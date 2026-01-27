@@ -154,8 +154,8 @@
 
 #3 Uppercase words longer than 3 letters using map + filter
 # Problem: words = ['a','hello','sun','moon'] → ['HELLO','MOON']
-word = ['a', 'hello', 'sun', 'moon']
-ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, word)))
+words = ['a', 'hello', 'sun', 'moon']
+ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, words)))
 print(ans)
 
 #4 Count total characters across strings using map() + reduce()
