@@ -49,9 +49,9 @@
 
 #8 Filter words with length > 5
 # Problem: words = ['apple','banana','kiwi','avocado'] → ['banana','avocado']
-# words = ['apple', 'banana', 'kiwi', 'avocado']
-# ans = list(filter(lambda x: len(x) > 5, words))
-# print(ans)
+word = ['apple', 'banana', 'kiwi', 'avocado']
+ans = list(filter(lambda x: len(x) > 5, word))
+print(ans)
 
 #9 Convert integers to strings using map()
 # # Problem: nums = [1,2,3] → ['1','2','3']
@@ -154,9 +154,9 @@
 
 #3 Uppercase words longer than 3 letters using map + filter
 # Problem: words = ['a','hello','sun','moon'] → ['HELLO','MOON']
-words = ['a', 'hello', 'sun', 'moon']
-ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, words)))
-print(ans)
+# words = ['a', 'hello', 'sun', 'moon']
+# ans = list(map(lambda x: x.upper(), filter(lambda x: len(x) > 3, words))) 
+# print(ans)
 
 #4 Count total characters across strings using map() + reduce()
 # Problem: ['hi','there'] → 7 (2 + 5)
@@ -181,7 +181,7 @@ print(ans)
 
 #8 Product of all even numbers using map() + filter() + reduce()
 # Problem: nums = [1,2,3,4] → 2 * 4 = 8
-from functools import reduce
-nums = [1, 2, 3, 4]
-ans = reduce(lambda x, y: x * y, filter(lambda x: x % 2 == 0, nums))
-print(ans)
+# from functools import reduce
+# nums = [1, 2, 3, 4]
+# ans = reduce(lambda x, y: x * y, filter(lambda x: x % 2 == 0, nums))
+# print(ans)
