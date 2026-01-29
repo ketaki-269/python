@@ -49,8 +49,8 @@
 
 #8 Filter words with length > 5
 # Problem: words = ['apple','banana','kiwi','avocado'] → ['banana','avocado']
-word = ['apple', 'banana', 'kiwi', 'avocado']
-ans = list(filter(lambda x: len(x) > 5, word))
+words = ['apple', 'banana', 'kiwi', 'avocado']
+ans = list(filter(lambda x: len(x) > 5, words))
 print(ans)
 
 #9 Convert integers to strings using map()
