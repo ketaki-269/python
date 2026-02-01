@@ -29,8 +29,8 @@
 
 #5 Filter strings starting with 'A'
 # Problem: names = ['Alice', 'Bob', 'Alex'] → ['Alice', 'Alex']
-names = ['Alice', 'Bob', 'Alex']
-ans = list(filter(lambda x: x.startswith('A'), names))
+name = ['Alice', 'Bob', 'Alex']
+ans = list(filter(lambda x: x.startswith('A'), name))
 print(ans)
 
 #6 Sum of numbers using reduce()
