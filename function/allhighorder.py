@@ -29,9 +29,9 @@
 
 #5 Filter strings starting with 'A'
 # Problem: names = ['Alice', 'Bob', 'Alex'] → ['Alice', 'Alex']
-names = ['Alice', 'Bob', 'Alex']
-ans = list(filter(lambda x: x.startswith('A'), names))
-print(ans)
+# names = ['Alice', 'Bob', 'Alex']
+# ans = list(filter(lambda x: x.startswith('A'), names))
+# print(ans)
 
 #6 Sum of numbers using reduce()
 # Problem: nums = [1,2,3,4] → 10
@@ -49,9 +49,9 @@ print(ans)
 
 #8 Filter words with length > 5
 # Problem: words = ['apple','banana','kiwi','avocado'] → ['banana','avocado']
-# words = ['apple', 'banana', 'kiwi', 'avocado']
-# ans = list(filter(lambda x: len(x) > 5, words))
-# print(ans)
+word = ['apple', 'banana', 'kiwi', 'avocado']
+ans = list(filter(lambda x: len(x) > 5, word))
+print(ans)
 
 #9 Convert integers to strings using map()
 # # Problem: nums = [1,2,3] → ['1','2','3']
