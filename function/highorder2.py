@@ -5,8 +5,8 @@
 # print (ans)
 #1. Filter even numbers from a list.
 # Input: [1, 2, 3, 4, 5, 6] → Output: [2, 4, 6]
-lis=[1,2,3,4,5,6]
-ans=list(filter(lambda x: x%2==0,lis))
+li=[1,2,3,4,5,6]
+ans=list(filter(lambda x: x%2==0,li))
 print (ans)
 # 2 Filter odd numbers from a list.
 # Input: [10, 15, 20, 25, 30] → Output: [15, 25]
