@@ -5,8 +5,8 @@
 # print (ans)
 #1. Filter even numbers from a list.
 # Input: [1, 2, 3, 4, 5, 6] → Output: [2, 4, 6]
-li=[1,2,3,4,5,6]
-ans=list(filter(lambda x: x%2==0,li))
+list=[1,2,3,4,5,6]
+ans=list(filter(lambda x: x%2==0,list))
 print (ans)
 # 2 Filter odd numbers from a list.
 # Input: [10, 15, 20, 25, 30] → Output: [15, 25]
@@ -52,9 +52,9 @@ print (ans)
 
 #10 Filter names that contain the letter 'a' or 'A'.
 # Input: ["Rahul", "Raj", "Python", "Code"] → Output: ["Rahul", "Raj"]
-li = ["Rahul", "Raj", "Python", "Code"]
-ans = list(filter(lambda x: 'a'  in x, li))
-print(ans)
+# li = ["Rahul", "Raj", "Python", "Code"]
+# ans = list(filter(lambda x: 'a'  in x, li))
+# print(ans)
 
 #11 Filter numbers whose square is greater than 50.
 # Input: [2, 4, 6, 8, 10] → Output: [8, 10]
