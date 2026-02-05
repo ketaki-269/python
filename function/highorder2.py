@@ -5,9 +5,9 @@
 # print (ans)
 #1. Filter even numbers from a list.
 # Input: [1, 2, 3, 4, 5, 6] → Output: [2, 4, 6]
-list=[1,2,3,4,5,6]
-ans=list(filter(lambda x: x%2==0,list))
-print (ans)
+# list=[1,2,3,4,5,6]
+# ans=list(filter(lambda x: x%2==0,list))
+# print (ans)
 # 2 Filter odd numbers from a list.
 # Input: [10, 15, 20, 25, 30] → Output: [15, 25]
 # li=[10,15,20,25,30]
@@ -20,9 +20,9 @@ print (ans)
 # print (ans)
 #4  Filter strings with length greater than 4.
 # Input: ["apple", "bat", "ball", "hi"] → Output: ["apple", "ball"]
-# li=["apple", "bat", "ball", "hi"]
-# ans=list(filter(lambda x: len(x)>4,li))
-# print (ans)
+lis=["apple", "bat", "ball", "hi"]
+ans=list(filter(lambda x: len(x)>4,lis))
+print (ans)
 #5  Filter positive numbers.
 # Input: [-2, 0, 5, 9, -7, 3] → Output: [5, 9, 3]
 # li=[-2, 0, 5, 9, -7, 3]
