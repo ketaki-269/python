@@ -20,8 +20,8 @@
 # print (ans)
 #4  Filter strings with length greater than 4.
 # Input: ["apple", "bat", "ball", "hi"] → Output: ["apple", "ball"]
-listt=["apple", "bat", "ball", "hi"]
-ans=list(filter(lambda x: len(x)>4,listt))
+lit=["apple", "bat", "ball", "hi"]
+ans=list(filter(lambda x: len(x)>4,lit))
 print (ans)
 #5  Filter positive numbers.
 # Input: [-2, 0, 5, 9, -7, 3] → Output: [5, 9, 3]
