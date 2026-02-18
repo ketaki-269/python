@@ -9,8 +9,8 @@
 # print(li)
 
 # WAP to store data of table
-data=[i for i in range (2,21,2)]
-print (data)
+# data=[i for i in range (2,21,2)]
+# print (data)
 
 # WAP evenn num.
 # data=[i for i in range (1,21,) if i%2==0]
@@ -22,8 +22,8 @@ print (data)
 # print (data)
 
 #WAP square of a number from 1 to 10
-# data= [i**2 for i in range(1, 11)] 
-# print(data)
+data= [i**2 for i in range(1, 11)] 
+print(data)
 
 
 
