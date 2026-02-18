@@ -9,8 +9,8 @@
 # print(li)
 
 # WAP to store data of table
-# data=[i for i in range (2,21,2)]
-# print (data)
+data=[i for i in range (2,21,2)]
+print (data)
 
 # WAP evenn num.
 # data=[i for i in range (1,21,) if i%2==0]
@@ -260,9 +260,9 @@
 # ans= {keys[i]:values[i] for i in range (len(keys))}
 # print(ans)
 # 12. Given a dictionary of student marks, extract students who scored above 80.
-marks = {'ketaki': 85, 'Antu': 98, 'Prakru': 92, 'kalyani': 80, 'Aanya': 88}
-above = {i: i for j, i in marks.items() if j > 80}
-print(above)
+# marks = {'ketaki': 85, 'Antu': 98, 'Prakru': 92, 'kalyani': 80, 'Aanya': 88}
+# above = {i: i for j, i in marks.items() if j > 80}
+# print(above)
 
 
 
