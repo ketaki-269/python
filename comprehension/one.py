@@ -22,14 +22,14 @@
 # print (data)
 
 #WAP square of a number from 1 to 10
-data= [i**2 for i in range(1, 11)] 
-print(data)
+# data= [i**2 for i in range(1, 11)] 
+# print(data)
 
 
 
 #WAP sqaure of num which is divisible by 3
 # data=[i for i in range (1,21,) if i**2%3]
-# print (data) galat 
+# print (data)   galat 
 
 # # by sir 
 # data= [i for i in range(1, 21) if i%3==0] 
@@ -50,9 +50,10 @@ print(data)
 # print(data)
 
 #WAP store only positive data in a list  ex - [-1,2,4,-8,7,2,-8,-2]  output=[2,4,7,2,]
-# data= [ -1,2,4,-8,7,2,-8,-2]
-# li = [i for i in data if i>=0]
-# print(li)
+data= [ -1,2,4,-8,7,2,-8,-2]
+li = [i for i in data if i>=0]
+print(li)
+
 
 
 # WAP to store even and odd in string
