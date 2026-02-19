@@ -18,3 +18,7 @@ variable
 always start with alphabet and _
 variable stores the memory address of the datatype
 
+
+
+
+
