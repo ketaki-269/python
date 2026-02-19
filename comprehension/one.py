@@ -77,9 +77,9 @@
 
 # WAP to only store a word which length is above 5
 # li = ["python", "c++","java","cybrom"] output=["python","cybrom "]
-li = ["python", "c++", "java", "cybrom"]
-result = [word for word in li if len(word) > 5]
-print("Words with length above 5:", result)
+# li = ["python", "c++", "java", "cybrom"]
+# result = [word for word in li if len(word) > 5]
+# print("Words with length above 5:", result)
 
 # WAP to convert each character in a string= "world" in uppecase  output = "WORLD"
 # string = "world"
@@ -87,9 +87,9 @@ print("Words with length above 5:", result)
 # print(result)
 
 #WAP to add 5 to each number in list    
-# li = [1, 2, 3, 4]
-# result = [i + 5 for i in li]
-# print(result)
+li = [1, 2, 3, 4]
+result = [i + 5 for i in li]
+print(result)
 
 
 # List Comprehension Questions
