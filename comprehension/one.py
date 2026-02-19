@@ -50,9 +50,9 @@
 # print(data)
 
 #WAP store only positive data in a list  ex - [-1,2,4,-8,7,2,-8,-2]  output=[2,4,7,2,]
-data= [ -1,2,4,-8,7,2,-8,-2]
-li = [i for i in data if i>=0]
-print(li)
+# data= [ -1,2,4,-8,7,2,-8,-2]
+# li = [i for i in data if i>=0]
+# print(li)
 
 
 
@@ -74,11 +74,12 @@ print(li)
 # print("Passed students' marks:", passed)
 
 
+
 # WAP to only store a word which length is above 5
 # li = ["python", "c++","java","cybrom"] output=["python","cybrom "]
-# li = ["python", "c++", "java", "cybrom"]
-# result = [word for word in li if len(word) > 5]
-# print("Words with length above 5:", result)
+li = ["python", "c++", "java", "cybrom"]
+result = [word for word in li if len(word) > 5]
+print("Words with length above 5:", result)
 
 # WAP to convert each character in a string= "world" in uppecase  output = "WORLD"
 # string = "world"
