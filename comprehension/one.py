@@ -87,9 +87,9 @@
 # print(result)
 
 #WAP to add 5 to each number in list    
-li = [1, 2, 3, 4]
-result = [i + 5 for i in li]
-print(result)
+# li = [1, 2, 3, 4]
+# result = [i + 5 for i in li]
+# print(result)
 
 
 # List Comprehension Questions
@@ -126,6 +126,8 @@ print(result)
 
 
 # 8. Create a list of (x, y) pairs where both are between 1 and 3 (Cartesian product).
+pairs = [(x, y) for x in range(1, 4) for y in range(1, 4)]
+print(pairs)
 
 
 # 9. Extract all words longer than 4 letters from "Python list comprehension is powerful".
