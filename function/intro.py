@@ -23,9 +23,11 @@
 
 
 # (this is return type and without argument ) 
-# def plusone(num):
-#     return num+1
-# plusone(2) 
+def plusone(num):
+    return num+1
+print(plusone(2) )
+
+
 
 # by print 
 # def plusone(num):

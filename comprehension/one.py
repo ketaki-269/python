@@ -164,8 +164,8 @@
 # print(data)
 
 # 4. From [1,2,2,3,4,4,5], create a set of unique elements.
-form = {i for i in [1,2,2,3,4,4,5]}
-print(form)
+# form = {i for i in [1,2,2,3,4,4,5]}
+# print(form)
 
 # 5. Create a set of numbers from 1–30 divisible by 3 or 5.
 # data= {i for i in range(1, 31) if i % 5 == 0  or  i % 6 == 0}
