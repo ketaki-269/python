@@ -23,9 +23,9 @@
 
 
 # (this is return type and without argument ) 
-def plusone(num):
-    return num+1
-plusone(2) 
+# def plusone(num):
+#     return num+1
+# plusone(2) 
 
 
 
@@ -34,9 +34,9 @@ plusone(2)
 #     return num+1
 # print(plusone(2))
 
-# def hello():
-#     return"hello"
-# print(hello())
+def hello():
+    return"hello"
+print(hello())
 
 # (this is return type and with argument ) 
 # def addtion(a,b):
