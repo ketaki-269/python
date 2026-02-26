@@ -34,9 +34,9 @@
 #     return num+1
 # print(plusone(2))
 
-def hii():
+def hello():
     return"hii"
-print((hii))
+print((hello))
 
 # (this is return type and with argument ) 
 # def addtion(a,b):
