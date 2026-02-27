@@ -35,9 +35,10 @@
 # print(plusone(2))
 
 
-def hello():
-    return"hello"
-print((hello))
+def hii():
+    return"hii"
+print((hii))
+
 
 
 # (this is return type and with argument ) 
