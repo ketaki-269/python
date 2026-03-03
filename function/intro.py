@@ -35,9 +35,9 @@
 # print(plusone(2))
 
 
-def hwllo():
-    return"hwllo"
-print((hwllo))
+def hello():
+    return"hello"
+print((hello))
 
 
 
