@@ -9,8 +9,8 @@
 # print(li)
 
 # WAP to store data of table
-dat=[i for i in range (2,21,2)]
-print (dat)
+data=[i for i in range (2,21,2)]
+print (data)
 
 # WAP evenn num.
 # data=[i for i in range (1,21,) if i%2==0]
