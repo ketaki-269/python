@@ -3,14 +3,14 @@
 # li =[]
 # for i in range (1,11):
 #     li.append(i)
-# print (li)    
+# print (li)     
 
 # li= [ i for i in range (1,11)]
 # print(li)
 
 # WAP to store data of table
-data=[i for i in range (2,21,2)]
-print (data)
+da=[i for i in range (2,21,2)]
+print (da)
 
 # WAP evenn num.
 
