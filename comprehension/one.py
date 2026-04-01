@@ -9,8 +9,8 @@
 # print(li)
 
 # WAP to store data of table
-da=[i for i in range (2,21,2)]
-print (da)
+d=[i for i in range (2,21,2)]
+print (d)
 
 
 # WAP evenn num.
