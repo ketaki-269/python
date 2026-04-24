@@ -17,8 +17,8 @@
 # # 3.smallest between two number45
 
 a = int(input("Enter an number1:"))
-c = int(input("Enter an number1:"))
-ans=c if a<c else c
+cd = int(input("Enter an number1:"))
+ans=cd if a<cd else cd
 print(ans)
 
 # 4.check the number is above 50 or not 
