@@ -1,7 +1,7 @@
 #creation
-# list=[10,"A","B",20,30]
-# print(list)
-# print(type(list))
+list=[10,"A","B",20,30]
+print(list)
+print(type(list))
 
 #creation with dynamic input
 # list=[]
