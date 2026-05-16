@@ -272,7 +272,7 @@ special = 0
 for ch in text:
     if ch.isalpha():       # Check if letter
         alphabets += 1
-    elif ch.isdigit():     # Check if digit
+    elif ch.isdigit():    
         digits += 1
     else:                  # Anything else is special character
         special += 1
