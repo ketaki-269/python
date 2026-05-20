@@ -261,7 +261,7 @@ sentence = "I love programming"
 longest_word = max(sentence.split(), key=len)
 print(longest_word)
 # 8. Count digits, alphabets, special
-# "Hello123!" → alphabets=5, digits=3, special=1
+# "Hello123!" → alphabets=5, digits=3, special=
 
 text = "Hello123!"
 
